@@ -1,4 +1,6 @@
-<div class="" data-ng-controller="AscController">
-  <h1>Asheville Ski Club</h1>
+<div class="" data-ng-controller="IndexController">
+	<h1>Asheville Ski Club</h1>
+	<img src="{{displayBannerImg(bannerIdx)}}"></img>
+	<button class="btn btn-primary btn-lg" data-ng-click="moveBanner(false)"><</button>
+  <button class="btn btn-primary btn-lg" data-ng-click="moveBanner(true)">></button>
 </div>
-
