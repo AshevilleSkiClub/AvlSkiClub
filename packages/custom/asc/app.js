@@ -11,7 +11,7 @@ var Asc = new Module('asc');
  * All MEAN packages require registration
  * Dependency injection is used to define required modules
  */
-Asc.register(function(app, auth, database) {
+Asc.register(function(system, app, auth, database) {
 
   //We enable routing. By default the Package Object is passed to the routes
   Asc.routes(app, auth, database);
@@ -25,7 +25,8 @@ Asc.register(function(app, auth, database) {
   });
   
   Asc.aggregateAsset('css', 'asc.css');
-
+  
+  app.set('views', __dirname + '/server/views/');
   /**
     //Uncomment to use. Requires meanio@0.3.7 or above
     // Save settings with callback

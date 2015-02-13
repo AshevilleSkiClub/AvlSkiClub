@@ -1,6 +1,9 @@
 <div class="" data-ng-controller="IndexController">
-	<h1>Asheville Ski Club</h1>
-	<img src="{{displayBannerImg(bannerIdx)}}"></img>
-	<button class="btn btn-primary btn-lg" data-ng-click="moveBanner(false)"><</button>
-  <button class="btn btn-primary btn-lg" data-ng-click="moveBanner(true)">></button>
+  <div style="height: 305px">
+    <carousel interval="bannerInterval">
+      <slide ng-repeat="banner in bannerImgs" active="slide.active">
+        <img ng-src="{{banner.img}}" style="margin:auto;">
+      </slide>
+    </carousel>
+  </div>
 </div>
