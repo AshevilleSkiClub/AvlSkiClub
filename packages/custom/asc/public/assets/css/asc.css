@@ -1,3 +1,11 @@
 .asc-example h1 {
   background-color: purple
 }
+
+.banner {
+  height: 60px;
+}
+
+.social {
+  height: 50px;
+}

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mean.asc').controller(' BannerController', ['$scope', 'Global',
+angular.module('mean.asc').controller('BannerController', ['$scope', 'Global',
   function($scope, Global) {
     $scope.global = Global;
     $scope.bannerInterval = 5000;

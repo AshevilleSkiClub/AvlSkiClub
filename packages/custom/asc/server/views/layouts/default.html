@@ -6,27 +6,25 @@
 <body data-ng-controller="ThemeController" ng-cloak class="ng-cloak" ng-class="state">
 <div class = "container-fluid">
     <div class = "row banner">
-        <div class = "col-md-12">
-            <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-
-            {% block content %}{% endblock %}
-            {% include '../includes/foot.html' %}
-
+        <div class="col-md-12">
+            <div class="navbar navbar-inverse navbar-fixed-top" data-ng-include="'/system/views/header.html'" data-role="navigation"></div>
         </div>
-
+        
     </div>
 
     <div class = "row social">
-
-
+        <div class="col-md-12 text-center">
+            <img src="/theme/assets/img/social_fb.png"></img>
+        </div>
     </div>
 
     <div class = "row content">
         <div class="col-md-2">
-
+          
         </div>
-        <div class = "col-md-6">
-
+        <div class = "col-md-8">
+          
+          {% block content %}{% endblock %}
         </div>
         <div class="col-md-2">
 
@@ -36,5 +34,5 @@
 </div>
 
 </body>
-
+{% include '../includes/foot.html' %}
 </html>
