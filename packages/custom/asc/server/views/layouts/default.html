@@ -1,16 +1,40 @@
 <!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="https://www.facebook.com/2008/fbml" itemscope="itemscope" itemtype="http://schema.org/Product">
-  {% include '../includes/head.html' %}
+{% include '../includes/head.html' %}
 
-  <body data-ng-controller="ThemeController" ng-cloak class="ng-cloak" ng-class="state">
-    <div class="navbar navbar-inverse navbar-fixed-top" data-ng-include="'/system/views/header.html'" data-role="navigation"></div>
-      {% if adminEnabled %}
-      <section class="admin-menu">
-        <div data-ng-include="'/mean-admin/views/index.html'"></div>
-      </section>
-      {% endif %}
-      {% block content %}{% endblock %}
-      {% include '../includes/foot.html' %}
-  </body>
+
+<body data-ng-controller="ThemeController" ng-cloak class="ng-cloak" ng-class="state">
+<div class = "container-fluid">
+    <div class = "row banner">
+        <div class = "col-md-12">
+            <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+
+            {% block content %}{% endblock %}
+            {% include '../includes/foot.html' %}
+
+        </div>
+
+    </div>
+
+    <div class = "row social">
+
+
+    </div>
+
+    <div class = "row content">
+        <div class="col-md-2">
+
+        </div>
+        <div class = "col-md-6">
+
+        </div>
+        <div class="col-md-2">
+
+        </div>
+
+    </div>
+</div>
+
+</body>
 
 </html>
