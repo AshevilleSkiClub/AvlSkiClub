@@ -1,38 +1,58 @@
 <!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="https://www.facebook.com/2008/fbml" itemscope="itemscope" itemtype="http://schema.org/Product">
-{% include '../includes/head.html' %}
+    {% include '../includes/head.html' %}
 
 
-<body data-ng-controller="ThemeController" ng-cloak class="ng-cloak" ng-class="state">
-<div class = "container-fluid">
-    <div class = "row banner">
-        <div class="col-md-12">
-            <div class="navbar navbar-inverse navbar-fixed-top" data-ng-include="'/system/views/header.html'" data-role="navigation"></div>
-        </div>
-        
-    </div>
+    <body data-ng-controller="ThemeController" ng-cloak class="ng-cloak main-body" ng-class="state">
+        <div class = "container-fluid">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-10">
+                    <span class="main-logo-wrapper" style="top: 200px;">
+                        <img src="/theme/assets/img/Clublogo.gif" class="scalable-image" style="position:absolute;"></img>
+                    </span>
+                </div>
+            </div>
+            <div class = "row">
+            <!--<div class="navbar navbar-inverse navbar-fixed-top" data-ng-include="'/system/views/header.html'" data-role="navigation"></div>-->
+                <div class="banner">
+                    <img src="/theme/assets/img/samplebanner.jpg"></img>
+                </div>
+            </div>
+    
+            <div class = "row social-container">
+                <div class="col-md-12 text-center">
+                    <a href="https://www.facebook.com/pages/Asheville-Ski-Club/168900931719?ref=br_tf"><img src="/theme/assets/img/social_fb.png"></img></a>
+                    <a href="https://twitter.com/skiavl"><img src="/theme/assets/img/social_tw.png"></img></a>
+                </div>
+            </div>
 
-    <div class = "row social">
-        <div class="col-md-12 text-center">
-            <img src="/theme/assets/img/social_fb.png"></img>
-        </div>
-    </div>
-
-    <div class = "row content">
-        <div class="col-md-2">
+            <div class = "row content">
+                <div class="col-md-2">
+                    <ul class="main-menu">
+                        <li>
+                            <a href="javascript:void(0)">HOME</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">NEWS</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">RACING</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">TRIPS</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class = "col-md-8">
           
+                    {% block content %}{% endblock %}
+                </div>
+                <div class="col-md-2">
+                
+                </div>
+            </div>
         </div>
-        <div class = "col-md-8">
-          
-          {% block content %}{% endblock %}
-        </div>
-        <div class="col-md-2">
-
-        </div>
-
-    </div>
-</div>
-
-</body>
-{% include '../includes/foot.html' %}
+    </body>
+    {% include '../includes/foot.html' %}
 </html>

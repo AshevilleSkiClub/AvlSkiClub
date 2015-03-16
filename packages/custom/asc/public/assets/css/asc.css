@@ -2,10 +2,50 @@
   background-color: purple
 }
 
-.banner {
-  height: 60px;
+.main-body {
+  background-color: #091740;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
 }
 
-.social {
-  height: 50px;
+.banner {
+  height: 320px;
+  overflow: hidden;
+  display: block;
+}
+
+.scalable-image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.main-logo-wrapper {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+}
+
+.social-container {
+  padding: 5px;
+}
+
+.menu-link {
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul.main-menu li {
+  font-weight: 900;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #BF2413;
 }
