@@ -97,3 +97,11 @@ a:hover {
 a:link {
   text-decoration: none; 
 }
+
+.template-borders {
+  border: solid #fff 1px;
+}
+
+.template-margins {
+  margin: 5px 5px 5px 5px;
+}
