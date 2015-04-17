@@ -5,8 +5,12 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.home',
   'myApp.gallery',
+  'myApp.calendar',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});
+
 }]);
+
+
