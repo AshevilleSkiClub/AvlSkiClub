@@ -105,3 +105,17 @@ a:link {
 .template-margins {
   margin: 5px 5px 5px 5px;
 }
+
+ul {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+ul li.gallery-image {
+	list-style: none;
+	margin-bottom: 25px;
+}
+
+ul li.gallery-image img {
+	cursor: pointer;
+}
