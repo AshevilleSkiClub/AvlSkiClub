@@ -26,22 +26,4 @@ angular.module('myApp.gallery', ['ngRoute'])
 		'content/img/gallery/10960401_10152646425236720_4226482784968206671_o.jpg',
 		'content/img/gallery/10974403_10152646413021720_2199962224408010650_o.jpg'
 	];
-	
-	$scope.openImage = function (imageSrc) {
-		var modalInstance = $modal.open({
-			templateUrl: 'gallery/image.html',
-			controller: 'ImageCtrl',
-			size: 'lg',
-			resolve: {
-				imageSrc: function () {
-					return imageSrc;
-				}
-			}
-		});
-		modalInstance.result.then(function () {
-			
-		}, function () {
-			
-		});
-	};
 }]);
