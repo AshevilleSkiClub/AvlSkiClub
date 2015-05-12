@@ -1,0 +1,59 @@
+extends layout
+block body
+    div(class="container-fluid")
+       div( class="row banner")
+          div(class="col-md-2")
+          div(class="col-md-8")
+             span( class="banner-logo-wrapper")
+               img(src="/img/Clublogo.gif" class="scalable-image")
+             span( class="banner-title-wrapper") Ashville Ski Club
+             span(class="banner-social-wrapper")
+                a(target="_blank" href="http://www.crescentskicouncil.org/index.html")
+                    img(src="/img/CresentLogo.gif" style="height: 60px;")
+                a(target="_blank" href="http://www.skifederation.org/index.html")
+                    img(src="/img/nscf_logo.png" style="height: 60px;")
+                a(target="_blank" href="https://www.facebook.com/pages/Asheville-Ski-Club/168900931719?ref=br_tf")
+                    img(src="/img/social_fb.png")
+                a(target="_blank" href="https://twitter.com/skiavl")
+                    img(src="img/social_tw.png")
+          div(class="col-md-2")
+       div(class="row")
+           div(class="col-md-2")
+           div(class="col-md-8 nav-bar")
+               ul
+                   li
+                       a(href="#/home") HOME
+                   li
+                       a(href="javascript:void(0)") MEMBERSHIP
+                   li
+                       a(href="javascript:void(0)") NEWS
+                   li
+                       a(href="#/calendar") CALENDAR
+                   li
+                       a(href="javascript:void(0)") RACING
+                   li
+                       a(href="javascript:void(0)") TRIPS
+                   li
+                       a(href="javascript:void(0)") RESORTS
+                   li
+                       a(href="#/gallery") GALLERY
+           div(class="col-md-2")
+       div(class="content")
+           div(class="row")
+               div(class="col-md-2")
+               div(class="col-md-8")
+                   div(ng-view)
+               div(class="col-md-2")
+    script( src="bower_components/angular/angular.js")
+    script( src="bower_components/angular-route/angular-route.js")
+    script( src="app/app.js")
+    script( src="home/home.js")
+    script( src="gallery/gallery.js")
+    script( src="gallery/image.js")
+    script( src="calendar/calendar.js")
+    script( src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js")
+    script( src="components/version/version.js")
+    script( src="components/version/version-directive.js")
+    script( src="components/version/interpolate-filter.js")
+
+
