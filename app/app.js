@@ -7,7 +7,8 @@ angular.module('myApp', [
   'myApp.gallery',
   'myApp.calendar',
   'myApp.version', 
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'akoenig.deckgrid'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});

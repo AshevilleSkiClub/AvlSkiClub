@@ -1,10 +1,14 @@
 <div data-ng-controller="GalleryCtrl">
 	<div class="col-md-12">
-		<justified-gallery>
-			<a href="{{image}}" data-gallery data-ng-repeat="image in images track by $index" gallery-image-link>
-				<img ng-src="{{image}}"/>
-			</a>
-		</justified-gallery>
+        <div class="gallery-container">
+            <div deckgrid class="deckgrid" source="photos">
+                <div class="gallery-img-wrapper">
+                    <a href="{{card.src}}" data-gallery>
+                        <img ng-src="{{card.src}}"/>
+                    </a>
+                </div>
+            </div>
+        </div>
 	</div>
 </div>
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
