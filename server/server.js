@@ -4,6 +4,7 @@
  */
 
 var express = require('express'),
+    mongoose = require('mongoose'),
     bodyParser = require('body-parser'),
     methodOverride = require('method-override'),
     errorHandler = require('express-error-handler'),
@@ -13,6 +14,10 @@ var express = require('express'),
     path = require('path');
 
 var app = module.exports = express();
+
+
+//connect to database
+mongoose.connect('mongodb://localhost/asClub');
 
 
 /**
