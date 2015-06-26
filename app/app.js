@@ -5,6 +5,7 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.home',
   'myApp.gallery',
+  'myApp.services',
   'myApp.calendar',
   'myApp.version', 
   'ui.bootstrap',
