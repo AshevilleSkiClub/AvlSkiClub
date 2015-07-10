@@ -8,6 +8,7 @@ angular.module('myApp', [
   'myApp.services',
   'myApp.calendar',
   'myApp.version', 
+  'myApp.news',
   'ui.bootstrap',
   'akoenig.deckgrid'
 ]).

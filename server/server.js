@@ -41,6 +41,7 @@ app.use("/components",express.static(path.join(__dirname,'../','app/','component
 app.use("/calendar",express.static(path.join(__dirname,'../','app/','calendar')));
 app.use("/home",express.static(path.join(__dirname,'../','app/','home')));
 app.use("/gallery",express.static(path.join(__dirname,'../','app/','gallery')));
+app.use("/news",express.static(path.join(__dirname,'../','app/','news')));
 app.use("/galleryService",express.static(path.join(__dirname,'../','app/','galleryService')));
 app.use("/app",express.static(path.join(__dirname,'../','app/')));
 app.set('view engine', 'jade');

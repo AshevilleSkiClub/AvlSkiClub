@@ -1,0 +1,12 @@
+<div ng-controller="NewsCtrl">
+    <div class="col-md-9 right-separator">
+        <news-article template-path="selectedArticlePath"></news-article>
+    </div>
+    <div class="col-md-3">
+        <ul class="no-list-style">
+            <li ng-repeat="article in articles">
+                <a href="javascript:void(0)" ng-click="changeSelectedArticle(article.templatePath)">{{article.name}}</a>
+            </li>
+        </ul>
+    </div>
+</div>

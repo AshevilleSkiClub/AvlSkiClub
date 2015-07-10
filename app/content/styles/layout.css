@@ -146,3 +146,27 @@ ul li.gallery-image img {
 .deckgrid .column-1-5 {
     width: 20%;
 }
+
+.indent-left-30 {
+    padding-left: 30px; 
+}
+
+sup, sup > a, sup > a:hover, sup > a:focus {
+    color: #BF2413;
+}
+
+a.content-link {
+    color: #BF2413;
+}
+
+a.content-link:hover, a.content-link:focus {
+    color: #23527c;
+}
+
+ul.no-list-style {
+    list-style-type: none;
+}
+
+ul.no-list-style > li {
+    margin-bottom: 5px;
+}
