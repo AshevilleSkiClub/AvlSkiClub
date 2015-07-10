@@ -3,9 +3,15 @@
  * Module dependencies
  */
 
-var express = require('express'),
-    mongoose = require('mongoose'),
-    bodyParser = require('body-parser'),
+
+var express = require('express');
+var mongoose = require('mongoose');
+
+//connect to database
+require(__dirname+'/models/imageModel.js');
+mongoose.connect('mongodb://localhost/asClub');
+
+var bodyParser = require('body-parser'),
     methodOverride = require('method-override'),
     errorHandler = require('express-error-handler'),
     morgan = require('morgan'),
@@ -16,8 +22,6 @@ var express = require('express'),
 var app = module.exports = express();
 
 
-//connect to database
-mongoose.connect('mongodb://localhost/asClub');
 
 
 /**
@@ -37,6 +41,7 @@ app.use("/components",express.static(path.join(__dirname,'../','app/','component
 app.use("/calendar",express.static(path.join(__dirname,'../','app/','calendar')));
 app.use("/home",express.static(path.join(__dirname,'../','app/','home')));
 app.use("/gallery",express.static(path.join(__dirname,'../','app/','gallery')));
+app.use("/galleryService",express.static(path.join(__dirname,'../','app/','galleryService')));
 app.use("/app",express.static(path.join(__dirname,'../','app/')));
 app.set('view engine', 'jade');
 app.use(morgan('dev'));
