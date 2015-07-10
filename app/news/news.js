@@ -36,7 +36,9 @@ angular.module('myApp.news', ['ngRoute'])
                         var promise = loader.success(function(html) {
                             element.html(html);
                         }).then(function (response) {
-                            element.replaceWith($compile(element.html())(scope));
+                            var compiled = $compile(element.html())(scope)
+                            element.replaceWith(compiled);
+                            element = compiled;
                         })
                     }
                 }); 
