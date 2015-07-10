@@ -15,11 +15,19 @@ angular.module('myApp.news', ['ngRoute'])
         { name: 'Camping, Rafting, & Mountain Biking Trip', templatePath: 'news/articles/camp-raft-bike-trip.html' }
     ];
     
-    $scope.selectedArticlePath = $scope.articles[0].templatePath;
-    
-    $scope.changeSelectedArticle = function (path) {
-        $scope.selectedArticlePath = path;
+    $scope.changeSelectedArticle = function (article) {
+        $scope.selectedArticlePath = article.templatePath;
+        for (var i = 0; i < $scope.articles.length; i++) {
+            $scope.articles[i].selected = false;
+        }
+        article.selected = true;
     };
+    
+    function onLoad() {
+        $scope.changeSelectedArticle($scope.articles[0]);
+    }
+    
+    onLoad();
 }])
 
 .directive('newsArticle', ['$compile', '$http', '$templateCache',
