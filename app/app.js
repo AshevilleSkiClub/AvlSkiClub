@@ -9,6 +9,11 @@ angular.module('myApp', [
   'myApp.calendar',
   'myApp.version', 
   'myApp.news',
+  'myApp.racing',
+  'myApp.trips', 
+  'myApp.membership',
+  'myApp.resorts',
+  'myApp.directives',
   'ui.bootstrap',
   'akoenig.deckgrid'
 ]).

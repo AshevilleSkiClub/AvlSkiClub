@@ -38,10 +38,15 @@ app.use("/bower_components",express.static(path.join(__dirname,'../','app/','bow
 app.use("/css",express.static(path.join(__dirname,'../','app/','content/styles')));
 app.use("/img",express.static(path.join(__dirname,'../','app/','content/img')));
 app.use("/components",express.static(path.join(__dirname,'../','app/','components')));
+app.use("/common",express.static(path.join(__dirname,'../','app/','common')));
 app.use("/calendar",express.static(path.join(__dirname,'../','app/','calendar')));
 app.use("/home",express.static(path.join(__dirname,'../','app/','home')));
+app.use("/resorts",express.static(path.join(__dirname,'../','app/','resorts')));
+app.use("/membership",express.static(path.join(__dirname,'../','app/','membership')));
+app.use("/trips",express.static(path.join(__dirname,'../','app/','trips')));
 app.use("/gallery",express.static(path.join(__dirname,'../','app/','gallery')));
 app.use("/news",express.static(path.join(__dirname,'../','app/','news')));
+app.use("/racing",express.static(path.join(__dirname,'../','app/','racing')));
 app.use("/galleryService",express.static(path.join(__dirname,'../','app/','galleryService')));
 app.use("/app",express.static(path.join(__dirname,'../','app/')));
 app.set('view engine', 'jade');
