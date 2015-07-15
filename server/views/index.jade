@@ -1,53 +1,60 @@
 extends layout
 block body
-    div(class="container-fluid")
-       div( class="row banner")
-          div(class="col-md-2")
-          div(class="col-md-8")
-             span( class="banner-logo-wrapper")
-               img(src="/img/Clublogo.gif" class="scalable-image")
-             span( class="banner-title-wrapper") Asheville Ski Club
-             span(class="banner-social-wrapper")
-                a(target="_blank" href="http://www.crescentskicouncil.org/index.html")
-                    img(src="/img/CresentLogo.gif" style="height: 60px;")
-                a(target="_blank" href="http://www.skifederation.org/index.html")
-                    img(src="/img/nscf_logo.png" style="height: 60px;")
-                a(target="_blank" href="https://www.facebook.com/pages/Asheville-Ski-Club/168900931719?ref=br_tf")
-                    img(src="/img/social_fb.png")
-                a(target="_blank" href="https://twitter.com/skiavl")
-                    img(src="img/social_tw.png")
-          div(class="col-md-2")
-       div(class="row")
-           div(class="col-md-2")
-           div(class="col-md-8 nav-bar")
-               ul
-                   li
-                       a(href="#/home") HOME
-                   li
-                       a(href="#/membership") MEMBERSHIP
-                   li
-                       a(href="#/news") NEWS
-                   li
-                       a(href="#/calendar") CALENDAR
-                   li
-                       a(href="#/racing") RACING
-                   li
-                       a(href="#/trips") TRIPS
-                   li
-                       a(href="#/resorts") RESORTS
-                   li
-                       a(href="#/gallery") GALLERY
-           div(class="col-md-2")
-       div(class="content")
-           div(class="row")
-               div(class="col-md-2")
-               div(class="col-md-8")
-                   div(ng-view)
-               div(class="col-md-2")
+    //div(class="container-fluid")
+    //   div( class="row banner")
+    //      div(class="col-md-2")
+    //      div(class="col-md-8")
+    //         span( class="banner-logo-wrapper")
+    //           img(src="/img/Clublogo.gif" class="scalable-image")
+    //         span( class="banner-title-wrapper") Asheville Ski Club
+    //         span(class="banner-social-wrapper")
+    //            a(target="_blank" href="http://www.crescentskicouncil.org/index.html")
+    //                img(src="/img/CresentLogo.gif" style="height: 60px;")
+    //            a(target="_blank" href="http://www.skifederation.org/index.html")
+    //                img(src="/img/nscf_logo.png" style="height: 60px;")
+    //            a(target="_blank" href="https://www.facebook.com/pages/Asheville-Ski-Club/168900931719?ref=br_tf")
+    //                img(src="/img/social_fb.png")
+    //            a(target="_blank" href="https://twitter.com/skiavl")
+    //                img(src="img/social_tw.png")
+    //      div(class="col-md-2")
+    //   div(class="row")
+    //       div(class="col-md-2")
+
+    nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
+        .container-fluid
+            .navbar-header
+                button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                a.navbar-brand(href='#/about') ASC
+            .navbar-collapse.collapse
+                ul.nav.navbar-nav.navbar-right
+                    li.active(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/home" nbr-collapse-mobile-view)
+                        a(href='#/home' ) HOME
+                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/javascript:void(0)" nbr-collapse-mobile-view)
+                        a(href='#/news') NEWS
+                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/calendar" nbr-collapse-mobile-view)
+                        a(href='#/calendar') CALENDAR
+                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/javascript:void(0)" nbr-collapse-mobile-view)
+                        a(href='#/racing') RACING
+                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/javascript:void(0)" nbr-collapse-mobile-view)
+                        a(href='#/trips') TRIPS
+                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/javascript:void(0)" nbr-collapse-mobile-view)
+                        a(href='#/resorts') RESORTS
+                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/gallery" nbr-collapse-mobile-view)
+                        a(href='#/gallery') GALLERY
+                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/javascript:void(0)" nbr-collapse-mobile-view)
+                        a(href='#/contact') CONTACT
+    .container-fluid.main-content
+       div(ng-view)
+
     script( src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
     script( src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js")
     script( src="components/bootstrap-image-gallery/js/bootstrap-image-gallery.min.js")
     script( src="bower_components/angular/angular.js")
+    script( src="bower_components/bootstrap/dist/js/bootstrap.js")
     script( src="bower_components/angular-route/angular-route.js")
     script( src="app/app.js")
     script( src="home/home.js")
