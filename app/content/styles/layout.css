@@ -17,6 +17,9 @@ body{
 
 }
 
+#header-img{
+    padding-top:15px;
+}
 .banner{
     padding-top:5px;
 }
@@ -25,6 +28,9 @@ body{
     padding-right:20px;
 }
 
+.fontSize{
+    font-size:50px;
+}
 
 
 .img-size{
@@ -248,6 +254,12 @@ a.selected {
 /**overwrite bootstrap table row hover color*/
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   background-color: #BF2413;
+}
+
+@media screen and (max-width:1485px){
+    .fontSize{
+        font-size:35px;
+    }
 }
 
 @media screen and (max-width:991px){
