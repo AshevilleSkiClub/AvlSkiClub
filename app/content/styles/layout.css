@@ -90,6 +90,10 @@ img {
   border-right: #fff solid 1px;
 }
 
+.left-separator {
+  border-left: #fff solid 1px;
+}
+
 a {
   color: inherit;
 }
@@ -177,4 +181,9 @@ ul.no-list-style > li {
 
 a.selected {
     color: #23527c;
+}
+
+/**overwrite bootstrap table row hover color*/
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #BF2413;
 }
