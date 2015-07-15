@@ -1,0 +1,29 @@
+<div data-ng-controller="RacingCampsCtrl">
+    <h1 class="text-left">
+        Race Camps
+    </h1>
+    <br/>
+    <p>
+        <label>Gate training at Appalachian each Friday evening before a Boone Area Crescent Race. Contact Ken L.</label>
+    </p>
+    <p>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Camp</th>
+                    <th>Info</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-ng-repeat="row in camps">
+                    <td>{{row.date}}</td>
+                    <td>{{row.place}}</td>
+                    <td>{{row.info}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+    <hr>
+    <p>Dec. 5-12, 2015 CSC Racing’s 32nd Race Camp at Steamboat - START PLANNING NOW AND CALL SARA OR GO ONLINE AT S.A.T. TO RESERVE YOUR SPACE!</p>
+</div>

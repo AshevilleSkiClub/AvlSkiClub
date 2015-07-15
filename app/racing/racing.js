@@ -13,6 +13,7 @@ angular.module('myApp.racing', ['ngRoute'])
     $scope.links = [
         { name: 'Schedule', templatePath: 'racing/articles/race-schedule.html' },
         { name: 'Results', templatePath: 'racing/articles/race-results.html' },
+        { name: 'Camps', templatePath: 'racing/articles/race-camps.html' },
         { name: 'Sponsors', templatePath: 'racing/articles/race-sponsors.html' }
     ];
     
@@ -44,6 +45,16 @@ angular.module('myApp.racing', ['ngRoute'])
         { date: 'March TBA', place: 'Dick Trundy/Sugar Cup GS Sugar Mt', time: '9:00 am'},
         { date: 'March 4 - 6', place: 'Crescent Cup, SilverCreek, WV', time: '8:45 am'},
         { date: 'March TBA', place: 'Rich Mead', time: ''},
+    ];
+}])
+
+.controller('RacingCampsCtrl', ['$scope', function($scope) {
+    $scope.camps = [
+        { date: 'December 5 - 12', place: 'Steamboat Race Camp', info: 'Sports Am.Tours: 800-876-8551'},
+        { date: 'December', place: 'Killington Race Camp', info: '800-621-6867'},
+        { date: 'December 6', place: 'CSC Development Training at Appalachian', info: '9:46 am - 3:00 pm'},
+        { date: 'December 11 - 13', place: 'Sugar Mt. Race Camp', info: 'Kim Jöchl: 828-898-4521 x224'},
+        { date: 'December', place: 'Timberline, WV  Ski School', info: '304-866-4801, Multiple sessions'}
     ];
 }])
 ;
