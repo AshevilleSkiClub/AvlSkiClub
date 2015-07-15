@@ -30,22 +30,22 @@ block body
                     span.icon-bar
                 a.navbar-brand(href='#/about') ASC
             .navbar-collapse.collapse
-                ul.nav.navbar-nav.navbar-right
-                    li.active(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/home" nbr-collapse-mobile-view)
+                ul.nav.navbar-nav.navbar-right(ng-controller='NavBarCtrl')
+                    li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/home"' data-ng-class='{active: selectedPage === "/home"}')
                         a(href='#/home' ) HOME
-                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/javascript:void(0)" nbr-collapse-mobile-view)
+                    li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/news"' data-ng-class='{active: selectedPage === "/news"}')
                         a(href='#/news') NEWS
-                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/calendar" nbr-collapse-mobile-view)
+                    li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/calendar"' data-ng-class='{active: selectedPage === "/calendar"}')
                         a(href='#/calendar') CALENDAR
-                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/javascript:void(0)" nbr-collapse-mobile-view)
+                    li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/racing"' data-ng-class='{active: selectedPage === "/racing"}')
                         a(href='#/racing') RACING
-                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/javascript:void(0)" nbr-collapse-mobile-view)
+                    li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/trips"' data-ng-class='{active: selectedPage === "/trips"}')
                         a(href='#/trips') TRIPS
-                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/javascript:void(0)" nbr-collapse-mobile-view)
+                    li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/resorts"' data-ng-class='{active: selectedPage === "/resorts"}')
                         a(href='#/resorts') RESORTS
-                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/gallery" nbr-collapse-mobile-view)
+                    li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/gallery"' data-ng-class='{active: selectedPage === "/gallery"}')
                         a(href='#/gallery') GALLERY
-                    li(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/javascript:void(0)" nbr-collapse-mobile-view)
+                    li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/contact"' data-ng-class='{active: selectedPage === "/contact"}')
                         a(href='#/contact') CONTACT
     .container-fluid.main-content
        div(ng-view)

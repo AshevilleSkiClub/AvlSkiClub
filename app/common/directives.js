@@ -25,4 +25,11 @@ angular.module('myApp.directives', [])
             }
         };
     }
-]);
+])
+
+// TODO move this later
+.controller('NavBarCtrl', ['$scope', '$location', function($scope, $location) {
+	$scope.selectedPage = $location.path(); //default when navigating to the page
+}])
+
+;
