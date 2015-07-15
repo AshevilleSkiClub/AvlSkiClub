@@ -1,3 +1,68 @@
+html{
+    height:100%;
+}
+
+body{
+    padding-top:70px;
+    height:100%;
+    margin:0;
+}
+
+#header{
+    border-bottom:solid 1px white;
+    height:119px;
+    margin-bottom:15px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.banner{
+    padding-top:5px;
+}
+
+.separate-img{
+    padding-right:20px;
+}
+
+
+
+.img-size{
+    height:100px;
+    width:100px;
+}
+
+#wrapper{
+
+    min-height: 100%;
+}
+
+
+#content{
+    padding-bottom:200px;
+    overflow:auto;
+}
+
+.footer{
+
+
+
+    color:white;
+    position: relative;
+    margin-top: -100px; /* negative value of footer height */
+    height: 100px;
+    clear:both;
+    padding-bottom:40px;
+
+}
+
+.center-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
 .asc-example h1 {
   background-color: purple
 }
@@ -14,9 +79,6 @@
 
 }
 
-.main-content{
-    padding-top: 70px;
-}
 
 .banner {
   height: 200px;
@@ -187,3 +249,20 @@ a.selected {
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   background-color: #BF2413;
 }
+
+@media screen and (max-width:991px){
+    .left-separator{
+        border:none;
+    }
+
+    #header{
+        display:none;
+    }
+
+
+
+}
+
+
+
+

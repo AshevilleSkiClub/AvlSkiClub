@@ -1,24 +1,9 @@
 extends layout
 block body
-    //div(class="container-fluid")
-    //   div( class="row banner")
-    //      div(class="col-md-2")
-    //      div(class="col-md-8")
-    //         span( class="banner-logo-wrapper")
-    //           img(src="/img/Clublogo.gif" class="scalable-image")
-    //         span( class="banner-title-wrapper") Asheville Ski Club
-    //         span(class="banner-social-wrapper")
-    //            a(target="_blank" href="http://www.crescentskicouncil.org/index.html")
-    //                img(src="/img/CresentLogo.gif" style="height: 60px;")
-    //            a(target="_blank" href="http://www.skifederation.org/index.html")
-    //                img(src="/img/nscf_logo.png" style="height: 60px;")
-    //            a(target="_blank" href="https://www.facebook.com/pages/Asheville-Ski-Club/168900931719?ref=br_tf")
-    //                img(src="/img/social_fb.png")
-    //            a(target="_blank" href="https://twitter.com/skiavl")
-    //                img(src="img/social_tw.png")
-    //      div(class="col-md-2")
-    //   div(class="row")
-    //       div(class="col-md-2")
+
+
+
+
 
     nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
         .container-fluid
@@ -47,8 +32,35 @@ block body
                         a(href='#/gallery') GALLERY
                     li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/contact"' data-ng-class='{active: selectedPage === "/contact"}')
                         a(href='#/contact') CONTACT
-    .container-fluid.main-content
-       div(ng-view)
+    div(class="container-fluid")#header
+       div( class="row")
+
+          div(class="col-md-12")
+              .row
+                 span.col-md-1.col-sm-1.col-md-offset-1.col-sm-offset-1
+                    div.img-size
+                        img(src="/img/Clublogo.gif" class="scalable-image")
+                 h1.col-md-5.col-sm-5.col-md-offset-0.col-sm-offset-0 Asheville Ski Club
+
+                 span.col-md-5.col-sm-5.col-md-offset-0.col-sm-offset-0
+                    a(target="_blank" href="http://www.crescentskicouncil.org/index.html").separate-img
+                        img(src="/img/CresentLogo.gif" style="height: 60px;")
+                    a(target="_blank" href="http://www.skifederation.org/index.html")
+                        img(src="/img/nscf_logo.png" style="height: 60px;")
+    .container-fluid#wrapper
+       div(ng-view)#content
+    div.footer
+        .row
+            div.col-md-12.text-center
+                a(target="_blank" href="https://www.facebook.com/pages/Asheville-Ski-Club/168900931719?ref=br_tf")
+                    img(src="/img/social_fb.png")
+                a(target="_blank" href="https://twitter.com/skiavl")
+                    img(src="img/social_tw.png")
+
+
+
+
+
 
     script( src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
     script( src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js")
