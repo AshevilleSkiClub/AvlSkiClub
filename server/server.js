@@ -42,6 +42,7 @@ app.use("/newsletters",express.static(path.join(__dirname,'../','app/','content/
 app.use("/components",express.static(path.join(__dirname,'../','app/','components')));
 app.use("/common",express.static(path.join(__dirname,'../','app/','common')));
 app.use("/calendar",express.static(path.join(__dirname,'../','app/','calendar')));
+app.use("/contact",express.static(path.join(__dirname,'../','app/','contact')));
 app.use("/home",express.static(path.join(__dirname,'../','app/','home')));
 app.use("/resorts",express.static(path.join(__dirname,'../','app/','resorts')));
 app.use("/membership",express.static(path.join(__dirname,'../','app/','membership')));

@@ -1,19 +1,20 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('myApp', [
+angular.module('asc', [
   'ngRoute',
-  'myApp.home',
-  'myApp.gallery',
-  'myApp.services',
-  'myApp.calendar',
-  'myApp.version', 
-  'myApp.news',
-  'myApp.racing',
-  'myApp.trips', 
-  'myApp.membership',
-  'myApp.resorts',
-  'myApp.directives',
+  'asc.home',
+  'asc.gallery',
+  'asc.services',
+  'asc.calendar',
+  'asc.version', 
+  'asc.news',
+  'asc.racing',
+  'asc.trips', 
+  'asc.membership',
+  'asc.resorts',
+  'asc.contact',
+  'asc.directives',
   'ui.bootstrap',
   'akoenig.deckgrid'
 ]).

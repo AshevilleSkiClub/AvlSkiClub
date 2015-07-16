@@ -1,4 +1,4 @@
-angular.module('myApp.services', [])
+angular.module('asc.services', [])
 
 .factory('galleryService', ['$http', function($http) {
     var ascUrl = 'http://localhost:3000/';

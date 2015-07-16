@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.membership', ['ngRoute'])
+angular.module('asc.membership', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/membership', {

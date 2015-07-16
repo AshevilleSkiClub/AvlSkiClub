@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.gallery', ['ngRoute', 'akoenig.deckgrid'])
+angular.module('asc.gallery', ['ngRoute', 'akoenig.deckgrid'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/gallery', {

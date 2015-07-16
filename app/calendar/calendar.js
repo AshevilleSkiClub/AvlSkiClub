@@ -2,7 +2,7 @@
  * Created by pmfarnsw on 4/14/15.
  */
 
-angular.module('myApp.calendar', ['ngRoute'])
+angular.module('asc.calendar', ['ngRoute'])
 
 
     .config(['$routeProvider', function($routeProvider) {

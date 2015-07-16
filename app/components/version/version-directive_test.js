@@ -1,7 +1,7 @@
 'use strict';
 
-describe('myApp.version module', function() {
-  beforeEach(module('myApp.version'));
+describe('asc.version module', function() {
+  beforeEach(module('asc.version'));
 
   describe('app-version directive', function() {
     it('should print current version', function() {

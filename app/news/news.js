@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.news', ['ngRoute'])
+angular.module('asc.news', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/news', {
@@ -13,6 +13,16 @@ angular.module('myApp.news', ['ngRoute'])
 	$scope.articles = [
         { name: 'Whistler-Blackcomb Trip', templatePath: 'news/articles/whistler-trip.html' },
         { name: 'Camping, Rafting, & Mountain Biking Trip', templatePath: 'news/articles/camp-raft-bike-trip.html' }
+    ];
+    
+    $scope.ascNewsletters = [
+        { name: 'July 2015', src: 'newsletters/2015/ASC_July_2015.pdf' },
+        { name: 'June 2015', src: 'newsletters/2015/ASC_June_2015.pdf' },
+        { name: 'May 2015', src: 'newsletters/2015/ASC_May_2015.pdf' }
+    ];
+    
+    $scope.cscNewsletters = [
+        { name: 'June 2015', src: 'newsletters/2015/Crescent_June_President_Update.pdf' }
     ];
     
     $scope.changeSelectedArticle = function (article) {

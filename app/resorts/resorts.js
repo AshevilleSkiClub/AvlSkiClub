@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.resorts', ['ngRoute'])
+angular.module('asc.resorts', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/resorts', {

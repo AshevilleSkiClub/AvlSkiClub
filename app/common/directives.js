@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.directives', [])
+angular.module('asc.directives', [])
 
 .directive('templateArticle', ['$compile', '$http', '$templateCache',
     function($compile, $http, $templateCache) {

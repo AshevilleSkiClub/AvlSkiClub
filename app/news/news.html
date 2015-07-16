@@ -6,6 +6,18 @@
                 <a href="javascript:void(0)" ng-class="{selected: article.selected}" ng-click="changeSelectedArticle(article)">{{article.name}}</a>
             </li>
         </ul>
+        <h3 class="text-center"><label>Newsletters</label></h3>
+        <ul class="no-list-style text-center">
+            <li ng-repeat="news in ascNewsletters">
+                <a href="{{news.src}}" target="_blank">{{news.name}}</a>
+            </li>
+        </ul>
+        <h3 class="text-center"><label>Crescent President's Updates</label></h3>
+        <ul class="no-list-style text-center">
+            <li ng-repeat="news in cscNewsletters">
+                <a href="{{news.src}}" target="_blank">{{news.name}}</a>
+            </li>
+        </ul>
     </div>
     <div class="col-md-9 left-separator">
         <template-article template-path="selectedArticlePath"></template-article>

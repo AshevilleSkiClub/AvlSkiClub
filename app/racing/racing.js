@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.racing', ['ngRoute'])
+angular.module('asc.racing', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/racing', {

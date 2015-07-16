@@ -1,6 +1,6 @@
 'use strict';
 
-describe('myApp.version module', function() {
+describe('asc.version module', function() {
   beforeEach(module('myApp.version'));
 
   describe('interpolate filter', function() {
