@@ -19,4 +19,6 @@ angular.module('asc.home', ['ngRoute'])
         time: '6:30 pm',
         notes: ''
     };
+    
+    $scope.welcomeImgSrc = 'img/welcomePic.png'
 }]);
