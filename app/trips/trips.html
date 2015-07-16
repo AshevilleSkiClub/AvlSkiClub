@@ -1,0 +1,13 @@
+<div ng-controller="TripsCtrl">
+    <div class="col-md-2">
+        <h3 class="text-center"><label>Upcoming Trips</label></h3>
+        <ul class="no-list-style text-left">
+            <li ng-repeat="trip in trips">
+                <a href="javascript:void(0)" ng-class="{selected: trip.selected}" ng-click="changeSelected(trip)">{{trip.date}}: {{trip.name}}</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-9 left-separator">
+        <template-article template-path="selectedPath"></template-article>
+    </div>
+</div>
