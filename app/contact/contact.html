@@ -1,0 +1,49 @@
+<div ng-controller="ContactCtrl">
+    <div class="col-md-2">
+        <h3 class="text-center"><label>Groups</label></h3>
+        <ul class="no-list-style text-center">
+            <li ng-repeat="group in groups">
+                <a href="{{group.href}}">{{group.name}}</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-9 left-separator">
+        <a name="executive" class="jump-to-link"><h3>Executive Officers</h3></a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-ng-repeat="contact in execContacts">
+                    <td>{{contact.title}}</td>
+                    <td>{{contact.name}}</td>
+                    <td><a href="mailto:{{contact.email}}">{{contact.email}}</a></td>
+                    <td>{{contact.phone}}</td>
+                </tr>
+                <tr class="table-title-row">
+                    <td colspan="4"><a name="board" class="jump-to-link"><h3>Board Members</h3></a><br/></td>
+                </tr>
+                <tr data-ng-repeat="contact in boardContacts">
+                    <td>{{contact.title}}</td>
+                    <td>{{contact.name}}</td>
+                    <td><a href="mailto:{{contact.email}}">{{contact.email}}</a></td>
+                    <td>{{contact.phone}}</td>
+                </tr>
+                <tr class="table-title-row">
+                    <td colspan="4"><a name="activity" class="jump-to-link"><h3>Activity Directors</h3></a><br/></td>
+                </tr>
+                <tr data-ng-repeat="contact in activityContacts">
+                    <td>{{contact.title}}</td>
+                    <td>{{contact.name}}</td>
+                    <td><a href="mailto:{{contact.email}}">{{contact.email}}</a></td>
+                    <td>{{contact.phone}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

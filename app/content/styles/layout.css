@@ -251,9 +251,19 @@ a.selected {
     color: #23527c;
 }
 
+a.jump-to-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
 /**overwrite bootstrap table row hover color*/
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-color: #BF2413;
+    background-color: #BF2413;
+}
+
+.table > tbody > tr.table-title-row > td {
+    padding: 0;
+    border: none;
 }
 
 @media screen and (max-width:1485px){
