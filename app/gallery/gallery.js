@@ -10,6 +10,7 @@ angular.module('asc.gallery', ['ngRoute', 'akoenig.deckgrid'])
 }])
 
 .controller('GalleryCtrl', ['$scope', '$modal', function($scope, $modal) {
+    $scope.albums = [];
 	$scope.images = [ 
 		'img/gallery/11112905_10152791968156720_4380727032593211959_o.jpg',
 		'img/gallery/11004621_10152791967421720_2825279544902022076_o.jpg',

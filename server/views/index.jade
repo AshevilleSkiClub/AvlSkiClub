@@ -30,7 +30,7 @@ block body
                         a(href='#/trips') TRIPS
                     li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/resorts"' data-ng-class='{active: selectedPage === "/resorts"}')
                         a(href='#/resorts') RESORTS
-                    li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/gallery"' data-ng-class='{active: selectedPage === "/gallery"}')
+                    li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/gallery"' data-ng-class='{active: selectedPage === "/gallery"}' style="display: none;")
                         a(href='#/gallery') GALLERY
                     li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/contact"' data-ng-class='{active: selectedPage === "/contact"}')
                         a(href='#/contact') CONTACT
@@ -58,7 +58,7 @@ block body
                  span.col-md-1
     .container-fluid#wrapper
        div(ng-view)#content
-    div.footer
+    div.footer(class="top-separator")
         .row
             div.col-md-12.text-center
 

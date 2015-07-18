@@ -162,6 +162,10 @@ img {
   border-left: #fff solid 1px;
 }
 
+.top-separator {
+  border-top: #fff solid 1px;
+}
+
 a {
   color: inherit;
 }
@@ -274,7 +278,10 @@ a.jump-to-link:hover {
 
 @media screen and (max-width:991px){
     .left-separator{
-        border:none;
+        border-left:none;
+        border-top: #fff solid 1px;
+        margin-top: 30px;
+        padding-top: 15px;
     }
 
     #header{

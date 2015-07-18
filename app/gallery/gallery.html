@@ -1,5 +1,13 @@
 <div data-ng-controller="GalleryCtrl">
-	<div class="col-md-12">
+    <div class="col-md-2">
+        <h3 class="text-center"><label>Albums</label></h3>
+        <ul class="no-list-style text-center">
+            <li ng-repeat="album in albums">
+                <a href="{{album.href}}" target="_blank">{{album.name}}</a>
+            </li>
+        </ul>
+    </div>
+	<div class="col-md-9 left-separator">
         <div class="gallery-container">
             <div deckgrid class="deckgrid" source="photos">
                 <div class="gallery-img-wrapper">
