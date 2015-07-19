@@ -37,6 +37,7 @@ app.set('views', __dirname + '/views');
 app.use("/bower_components",express.static(path.join(__dirname,'../','app/','bower_components')));
 app.use("/css",express.static(path.join(__dirname,'../','app/','content/styles')));
 app.use("/img",express.static(path.join(__dirname,'../','app/','content/img')));
+app.use("/js",express.static(path.join(__dirname,'../','app/','content/js')));
 app.use("/forms",express.static(path.join(__dirname,'../','app/','content/forms')));
 app.use("/newsletters",express.static(path.join(__dirname,'../','app/','content/newsletters')));
 app.use("/components",express.static(path.join(__dirname,'../','app/','components')));
