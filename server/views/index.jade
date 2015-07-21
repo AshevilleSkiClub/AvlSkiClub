@@ -13,7 +13,9 @@ block body
                     span.icon-bar
                     span.icon-bar
                     span.icon-bar
-                a.navbar-brand(href='#/about') ASC
+                a.navbar-brand.navbar-img(href='#/home') 
+                    img(src="/img/Clublogo.gif" class="scalable-image" style="display:block;")
+                a.navbar-brand.navbar-title(href='#/home') Asheville Ski Club
             .navbar-collapse.collapse
                 ul.nav.navbar-nav.navbar-right(ng-controller='NavBarCtrl')
                     li(data-toggle='collapse' data-target=".nav-collapse" data-ng-click='selectedPage = "/home"' data-ng-class='{active: selectedPage === "/home"}')
@@ -58,9 +60,17 @@ block body
                  span.col-md-1
     .container-fluid#wrapper
        div(ng-view)#content
-    div.footer(class="top-separator")
+    div.footer(class="container-fluid")
         .row
             div.col-md-12.text-center
+                a(target="_blank" href="http://www.crescentskicouncil.org/index.html").separate-img
+                    img(src="/img/CresentLogo.gif" style="height: 30px;")
+                a(target="_blank" href="http://www.skifederation.org/index.html").separate-img
+                    img(src="/img/nscf_logo.png" style="height: 30px;")
+                a(target="_blank" href="https://www.facebook.com/pages/Asheville-Ski-Club/168900931719?ref=br_tf").separate-img
+                    img(src="/img/social_fb.png" style="height: 30px;")
+                a(target="_blank" href="https://twitter.com/skiavl")
+                    img(src="img/social_tw.png" style="height: 30px;")
 
 
 

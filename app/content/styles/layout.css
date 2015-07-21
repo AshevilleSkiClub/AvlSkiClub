@@ -25,7 +25,8 @@ body{
 }
 
 .separate-img{
-    padding-right:20px;
+    padding-right:5px;
+    margin-right:5px;
 }
 
 .fontSize{
@@ -51,8 +52,8 @@ body{
 
 .footer{
 
-
-
+    padding-top:20px;
+    border-top: #fff solid 1px;
     color:white;
     position: relative;
     margin-top: -100px; /* negative value of footer height */
@@ -85,6 +86,13 @@ body{
 
 }
 
+.navbar-brand.navbar-img {
+    padding: 5px 10px;
+}
+
+.navbar-title {
+    margin-left: -15px;
+}
 
 .banner {
   height: 200px;
@@ -260,6 +268,11 @@ a.jump-to-link:hover {
     text-decoration: none;
 }
 
+img.home-img {
+    width: 750px;
+    max-width: 100%;
+}
+
 /**overwrite bootstrap table row hover color*/
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
     background-color: #BF2413;
@@ -288,7 +301,9 @@ a.jump-to-link:hover {
         display:none;
     }
 
-
+    img.home-img {
+        width: 100%;
+    }
 
 }
 
