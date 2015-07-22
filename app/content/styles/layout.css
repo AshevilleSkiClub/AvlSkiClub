@@ -63,6 +63,12 @@ body{
 
 }
 
+.home-carousel-wrapper {
+    width: 750px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
 .center-img{
     display: block;
     margin-left: auto;
@@ -304,7 +310,10 @@ img.home-img {
     img.home-img {
         width: 100%;
     }
-
+    
+    .home-carousel-wrapper {
+        width: 100%;
+    }
 }
 
 

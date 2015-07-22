@@ -26,7 +26,7 @@ angular.module('asc.contact', ['ngRoute'])
                             { title: 'Member', name: 'Paul Dobson', email: 'paultdobson@gmail.com', phone: '828-280-2022' }];
     
     $scope.activityContacts = [{ title: 'Newsletter', name: 'Tom Bushar', email: 'tbushar@gmail.com', phone: '828-254-4108' },
-                            { title: 'Membership', name: 'Debbie Melton', email: 'debbie.melton@msj.com', phone: '828-674-9323' },
+                            { title: 'Membership', name: 'Debbie Melton', email: 'ashskiclub@gmail.com', phone: '828-674-9323' },
                             { title: 'Publicity', name: 'Open', email: '', phone: '' },
                             { title: 'Special Events', name: 'Michelle Shuford', email: 'skibumlong@aol.com', phone: '828-768-0120' },
                             { title: 'Socials', name: 'Open', email: '', phone: '' },

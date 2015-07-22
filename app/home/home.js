@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('asc.home', ['ngRoute'])
+angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/home', {
@@ -18,7 +18,12 @@ angular.module('asc.home', ['ngRoute'])
         date: 'Thursday, August 13',
         time: '6:30 pm',
         notes: ''
-    };
+	};
     
+    $scope.slideInterval = 5000;
+	$scope.welcomeSlides = [ 
+        { src:'img/welcomePic.png' },
+        { src:'img/welcomePic2.png' }
+    ];
     $scope.welcomeImgSrc = 'img/welcomePic.png'
 }]);
