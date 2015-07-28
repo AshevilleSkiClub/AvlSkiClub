@@ -11,7 +11,7 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 
 .controller('HomeCtrl', ['$scope', function($scope) {
 	$scope.monthlyMeeting = { 
-        topic: 'Holiday Season', 
+        topic: 'What is new in Biking', 
         location: 'Ski Country Sports', 
         address: '1000 Merrimon Ave', 
         mapUrl: 'https://www.google.com/maps/place/Ski+Country+Sports/@35.6315982,-82.5545991,15z/data=!4m2!3m1!1s0x0:0x992ff8177143b2a2',
