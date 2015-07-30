@@ -23,7 +23,10 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
     $scope.slideInterval = 5000;
 	$scope.welcomeSlides = [ 
         { src:'img/welcomePic.png' },
-        { src:'img/welcomePic2.png' }
+        { src:'img/welcomePic2.png' },
+        { src:'img/welcomePic3.png' },
+        { src:'img/welcomePic4.png' },
+        { src:'img/welcomePic5.png' }
     ];
     $scope.welcomeImgSrc = 'img/welcomePic.png'
 }]);

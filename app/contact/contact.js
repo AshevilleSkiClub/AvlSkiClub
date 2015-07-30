@@ -16,6 +16,7 @@ angular.module('asc.contact', ['ngRoute'])
     
     $scope.execContacts = [{ title: 'President', name: 'Jeff Kenrick', email: 'jpkenrick@aol.com', phone: '828-246-3035' },
                        { title: 'Vice President', name: 'Bill Melton', email: 'skibill@charter.net', phone: '828-243-4366' },
+                       { title: 'Past President', name: 'John Hofler', email: 'jghofler@gmail.com', phone: '828-689-8641' },
                        { title: 'Treasurer', name: 'Don Shuford', email: 'donshuford@charter.net', phone: '828-777-0788' },
                        { title: 'Secretary', name: 'Nanci Burkley', email: 'nlbshrew@gmail.com', phone: '828-676-0355' }];
     
