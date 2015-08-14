@@ -18,7 +18,7 @@ angular.module('asc.contact', ['ngRoute'])
                        { title: 'Vice President', name: 'Bill Melton', email: 'skibill@charter.net', phone: '828-243-4366' },
                        { title: 'Past President', name: 'John Hofler', email: 'jghofler@gmail.com', phone: '828-689-8641' },
                        { title: 'Treasurer', name: 'Don Shuford', email: 'donshuford@charter.net', phone: '828-777-0788' },
-                       { title: 'Secretary', name: 'Nanci Burkley', email: 'nlbshrew@gmail.com', phone: '828-676-0355' }];
+                       { title: 'Secretary', name: 'Nanci Burkey', email: 'nlbshrew@gmail.com', phone: '828-676-0355' }];
     
     $scope.boardContacts = [{ title: 'Member', name: 'Lauren Wall', email: 'lwall50@bellsouth.net', phone: '828-628-9019' },
                             { title: 'Member', name: 'Erik Sandstedt', email: 'seasonscatering@charter.net', phone: '828-654-9432' },

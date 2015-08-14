@@ -16,5 +16,9 @@ angular.module('asc.resorts', ['ngRoute'])
                       { name: 'Sugar Mountain', href: 'http://www.skisugar.com/' },
                       { name: 'Beech Mountain', href: 'http://www.beechmountainresort.com/' },
                       { name: 'Wintergreen', href: 'http://www.wintergreenresort.com/' },
-                      { name: 'Snowshoe', href: 'http://www.snowshoemtn.com/' }];
+                      { name: 'Snowshoe', href: 'http://www.snowshoemtn.com/' },
+                      { name: 'Whistler Blackcomb', href: 'http://www.whistlerblackcomb.com/'},
+                      { name: 'Steamboat Springs', href: 'http://www.steamboat.com/'},
+                      { name: 'Mt Bachelor', href: 'http://www.mtbachelor.com/'},
+                      { name: 'Big Sky', href: 'http://bigskyresort.com/'}];
 }]);
