@@ -12,6 +12,20 @@
     <h6>on</h6>
     <p>{{monthlyMeeting.date}}<br/>{{monthlyMeeting.time}}</p>
     <h6 data-ng-if="monthlyMeeting.notes">{{monthlyMeeting.notes}}</h6>
+    <br/>
+    <div ng-if="otherAnnouncement">
+      <h3>{{otherAnnouncement.name}}</h3>
+      <p>
+        <a target="_blank" href="{{otherAnnouncement.mapUrl}}">
+            {{otherAnnouncement.location}}<br/>{{otherAnnouncement.address}}
+        </a>
+      </p>
+      <h6>on</h6>
+      <p>{{otherAnnouncement.date}}<br/>{{otherAnnouncement.time}}</p>
+      <h6 data-ng-if="otherAnnouncement.notes">{{otherAnnouncement.notes}}</h6>
+      <h4><a target="_blank" href="forms/CSC_Fall Conference_Registration.pdf">Registration</a> & <a target="_blank" href="forms/CSC_Fall Conf_Hike.pdf">Info</a></h5>
+    </div>
+    
   </div>
   <div class="col-md-9 left-separator">
     <div class="home-carousel-wrapper">

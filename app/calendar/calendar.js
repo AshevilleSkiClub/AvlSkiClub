@@ -14,7 +14,6 @@ angular.module('asc.calendar', ['ngRoute'])
 
     .controller('CalendarCtrl', ['$scope', function($scope) {
         $scope.upcomingEvents = [
-            { name: 'August Meeting', date: '08/13' },
             { name: 'September Meeting', date: '09/10' },
             { name: 'October Meeting', date: '10/13' },
             { name: 'November Meeting', date: '11/13' },
