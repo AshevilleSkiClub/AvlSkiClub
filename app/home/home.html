@@ -12,18 +12,19 @@
     <h6>on</h6>
     <p>{{monthlyMeeting.date}}<br/>{{monthlyMeeting.time}}</p>
     <h6 data-ng-if="monthlyMeeting.notes">{{monthlyMeeting.notes}}</h6>
-    <br/>
-    <div ng-if="otherAnnouncement">
-      <h3>{{otherAnnouncement.name}}</h3>
+    <div ng-repeat="announcement in otherAnnouncements track by $index">
+      <br/>
+      <h3>{{announcement.name}}</h3>
       <p>
-        <a target="_blank" href="{{otherAnnouncement.mapUrl}}">
-            {{otherAnnouncement.location}}<br/>{{otherAnnouncement.address}}
+        <a target="_blank" href="{{announcement.mapUrl}}">
+            {{announcement.location}}<br/>{{announcement.address}}
         </a>
       </p>
       <h6>on</h6>
-      <p>{{otherAnnouncement.date}}<br/>{{otherAnnouncement.time}}</p>
-      <h6 data-ng-if="otherAnnouncement.notes">{{otherAnnouncement.notes}}</h6>
-      <h4><a target="_blank" href="forms/CSC_Fall Conference_Registration.pdf">Registration</a> & <a target="_blank" href="forms/CSC_Fall Conf_Hike.pdf">Info</a></h5>
+      <p>{{announcement.date}}<br/>{{announcement.time}}</p>
+      <h6 data-ng-if="announcement.notes">{{announcement.notes}}</h6>
+      <h5 data-ng-if="$index === 0">RSVP to Jeff Kenrick: <a target="_blank" href="mailto:jpkenrick@aol.com">jpkenrick@aol.com</a></h5>
+      <h4 data-ng-if="$index === 1"><a target="_blank" href="forms/CSC_Fall Conference_Registration.pdf">Registration</a> & <a target="_blank" href="forms/CSC_Fall Conf_Hike.pdf">Info</a></h4>
     </div>
     
   </div>

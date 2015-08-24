@@ -11,8 +11,7 @@ angular.module('asc.news', ['ngRoute'])
 
 .controller('NewsCtrl', ['$scope', function($scope) {
 	$scope.articles = [
-        { name: 'Whistler-Blackcomb Trip', templatePath: 'news/articles/whistler-trip.html' },
-        { name: 'Camping, Rafting, & Mountain Biking Trip', templatePath: 'news/articles/camp-raft-bike-trip.html' }
+        { name: 'Whistler-Blackcomb Trip', templatePath: 'news/articles/whistler-trip.html' }
     ];
     
     $scope.ascNewsletters = [
