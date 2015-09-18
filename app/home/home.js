@@ -11,23 +11,16 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 
 .controller('HomeCtrl', ['$scope', function($scope) {
 	$scope.monthlyMeeting = { 
-        topic: 'Fun and Games', 
-        location: 'Carrier Park', 
-        address: 'Asheville, NC 28806', 
-        mapUrl: 'https://www.google.com/maps/place/Carrier+Park/@35.5659219,-82.5791016,15z/data=!4m2!3m1!1s0x0:0xac8a261a869741bf?sa=X&ved=0CJEBEPwSMA1qFQoTCIHa9oiouccCFUV4Pgod-JkJGg',
-        date: 'Thursday, September 10',
-        time: '4:30 pm',
-        notes: ''
+        topic: 'Bye-bye Thursday Meetings & By-law Changes', 
+        location: 'Avenue M', 
+        address: '791 Merrimon Ave Asheville, NC 28804', 
+        mapUrl: 'https://www.google.com/maps/place/Avenue+M/@35.625743,-82.553496,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x6c37d17d9cf1317d',
+        date: 'Thursday, October 8',
+        time: '6:30 pm',
+        notes: 'Appetizers will be served'
 	};
     
     $scope.otherAnnouncements = [
-        {
-            name: 'Asheville Tourists Game',
-            location: 'McCormick Field',
-            address: '30 Buchanan Pl, Asheville, NC 28801',
-            mapUrl: 'https://www.google.com/maps/place/mccormick+field+asheville/data=!4m2!3m1!1s0x0:0xe0bc1e7b925e4bf7?sa=X&ved=0CCgQrwswAGoVChMIir_369bAxwIVw3g-Ch3m8g6B',
-            date: 'Friday, August 28'
-        },
         {
             name: 'CSC Fall Conference',
             location: 'Glenstone Lodge',
