@@ -23,8 +23,13 @@ angular.module('asc.news', ['ngRoute'])
     ];
     
     $scope.cscNewsletters = [
+        { name: 'September 2015', src: 'newsletters/2015/CSC_September_2015_President_Update.pdf' },
         { name: 'August 2015', src: 'newsletters/2015/CSC_August_2015_President.pdf' },
         { name: 'June 2015', src: 'newsletters/2015/Crescent_June_President_Update.pdf' }
+    ];
+    
+    $scope.nscNewsletters = [
+        { name: 'September 2015 Newsbeat', src: 'newsletters/2015/NSC_Newsbeat_September2015.pdf' }
     ];
     
     $scope.changeSelectedArticle = function (article) {
