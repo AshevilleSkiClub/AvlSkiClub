@@ -34,7 +34,7 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
             address: '38 N French Broad Ave Asheville, NC 28801',
             mapUrl: 'https://www.google.com/maps/place/New+Mountain+Asheville/@35.5945235,-82.5613704,17z/data=!3m1!4b1!4m2!3m1!1s0x8859f354f5898bcb:0xa0c6cc1c341081f3',
             date: 'November 13',
-            time: '5:00 pm',
+            time: 'Doors: 5:00 pm / Part one: 7:15-8:00 pm / Part two: 8:15-9:00 pm',
             notes: 'Tickets: $10'
         }
     ];
