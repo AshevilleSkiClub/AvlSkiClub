@@ -21,14 +21,6 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
     
     $scope.otherAnnouncements = [
         {
-            name: 'Club Social/Celebration',
-            location: 'All Souls Pizza',
-            address: '175 Clingman Ave Asheville, NC 28801',
-            mapUrl: 'https://www.google.com/maps/place/All+Souls+Pizza/@35.5879628,-82.566547,17z/data=!3m1!4b1!4m2!3m1!1s0x88598cad7e57f9a7:0xc6c2d37cece59fb7',
-            date: 'October 18',
-            time: '4:00 pm'
-        },
-        {
             name: 'Warren Miller\'s Chasing Shadows',
             location: 'New Mountain Asheville',
             address: '38 N French Broad Ave Asheville, NC 28801',
