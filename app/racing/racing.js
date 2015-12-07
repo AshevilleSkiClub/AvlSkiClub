@@ -14,7 +14,9 @@ angular.module('asc.racing', ['ngRoute'])
         { name: 'Schedule', templatePath: 'racing/articles/race-schedule.html' },
         { name: 'Results', templatePath: 'racing/articles/race-results.html' },
         { name: 'Camps', templatePath: 'racing/articles/race-camps.html' },
-        { name: 'Sponsors', templatePath: 'racing/articles/race-sponsors.html' }
+        { name: 'Sponsors', templatePath: 'racing/articles/race-sponsors.html' },
+        { name: 'Gatekeeper Training', templatePath: 'racing/articles/race-gatekeeping.html' },
+        { name: 'Waiver', templatePath: 'forms/Crescent_Racing_Liability_Waiver.pdf' }
     ];
     
     $scope.changeSelected = function (link) {

@@ -11,6 +11,7 @@
             <li ng-repeat="link in links">
                 <a href="javascript:void(0)" ng-if="link.name !== 'Results'" ng-class="{selected: link.selected}" ng-click="changeSelected(link)">{{link.name}}</a>
                 <a href="http://www.crescentskicouncil.org/racing/raceresults.html" target="_blank" ng-if="link.name === 'Results'">{{link.name}}</a>
+                <a href="{{link.templatePath}}" target="_blank" ng-if="link.name === 'Waiver'">{{link.name}}</a>
             </li>
         </ul>
     </div>
