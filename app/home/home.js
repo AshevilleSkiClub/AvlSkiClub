@@ -57,7 +57,8 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
         { src:'img/welcomePic3.png' },
         { src:'img/welcomePic4.png' },
         { src:'img/welcomePic5.png' },
-        { src:'img/welcomePic6.png' }
+        { src:'img/welcomePic6.png' },
+        { src:'img/welcomePic7.png' }
     ];
     $scope.welcomeImgSrc = 'img/welcomePic.png'
 }]);
