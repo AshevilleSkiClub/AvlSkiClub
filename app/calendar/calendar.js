@@ -14,13 +14,11 @@ angular.module('asc.calendar', ['ngRoute'])
 
     .controller('CalendarCtrl', ['$scope', function($scope) {
         $scope.upcomingEvents = [
-            { name: 'November Meeting', date: '11/10' },
-            { name: 'December Meeting', date: '12/01' },
-            { name: 'CSC/Steamboat ski/race week', date: '12/5-12/13' },
-            { name: 'Appalachian Mtn CSC race development training', date: '12/06' },
-            { name: 'December Meeting', date: '12/08' },
-            { name: 'Sugar Mt Race Camp', date: '12/11-12/13' },
-            { name: 'CSC Race @ Appalachian Mtn', date: '12/19-12/20' }
+            { name: 'January Meeting', date: '01/12' },
+            { name: 'Sugar Mtn Race', date: '01/09-01/10' },
+            { name: 'Mt Bachelor Trip', date: '01/16-01/23' },
+            { name: 'Courmayeur Trip', date: '01/23-01/31' },
+            { name: 'Appalachian Mtn Race', date: '01/30-01/31' }
         ];
         
     }]);
