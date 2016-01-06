@@ -59,4 +59,49 @@ angular.module('asc.racing', ['ngRoute'])
         { date: 'December', place: 'Timberline, WV  Ski School', info: '304-866-4801, Multiple sessions'}
     ];
 }])
+
+
+.controller('RacingSponsorsCtrl', ['$scope', function($scope) {
+    $scope.sponsors = [
+        { img: 'img/sponsors/aspen-snowmass-logo.png', link: '' },
+        { img: 'img/sponsors/dynastar-logo.png', link: '' },
+        { img: 'img/sponsors/jackson-hole-logo.gif', link: '' },
+        { img: 'img/sponsors/bayou-logo.png', link: '' },
+        { img: 'img/sponsors/copper-logo.png', link: '' },
+        { img: 'img/sponsors/saucer-wax-logo.png', link: '' },
+        { img: 'img/sponsors/alpine-ski-center-logo.png', link: '' },
+        { img: 'img/sponsors/samuel-adams-logo.jpg', link: '' },
+        { img: 'img/sponsors/canaan-valley-logo.png', link: '' },
+        { img: 'img/sponsors/steamboat-logo.jpg', link: '' },
+        { img: 'img/sponsors/wolfridge-resort-logo.png', link: '' },
+        { img: 'img/sponsors/telluride-logo.png', link: '' },
+        { img: 'img/sponsors/whitefish-logo.gif', link: '' },
+        { img: 'img/sponsors/banana-boat-logo.png', link: '' },
+        { img: 'img/sponsors/sports-america-logo.png', link: '' },
+        { img: 'img/sponsors/steamboat-resorts-logo.png', link: '' },
+        { img: 'img/sponsors/podium-wax-logo.gif', link: '' },
+        { img: 'img/sponsors/leki-logo.png', link: '' },
+        { img: 'img/sponsors/polarmax-logo.png', link: '' },
+        { img: 'img/sponsors/snowmass-village-logo.jpg', link: '' },
+        { img: 'img/sponsors/point6-logo.jpg', link: '' },
+        { img: 'img/sponsors/descente-logo.png', link: '' },
+        { img: 'img/sponsors/sportube-logo.jpg', link: '' },
+        { img: 'img/sponsors/artech-logo.jpg', link: '' },
+        { img: 'img/sponsors/ski-country-sports-logo.jpg', link: '' },
+        { img: 'img/sponsors/snowshoe-logo.png', link: '' },
+        { img: 'img/sponsors/peet-dryer-logo.png', link: '' },
+        { img: 'img/sponsors/head-logo.png', link: '' },
+        { img: 'img/sponsors/red-bull-logo.png', link: '' },
+        { img: 'img/sponsors/cataloochee-logo.jpg', link: '' },
+        { img: 'img/sponsors/skigroup-logo.png', link: '' },
+        { img: 'img/sponsors/winter-park-logo.jpg', link: '' },
+        { img: 'img/sponsors/taos-logo.png', link: '' },
+        { img: 'img/sponsors/atomic-logo.png', link: '' },
+        { img: 'img/sponsors/clif-bar-logo.png', link: '' },
+        { img: 'img/sponsors/zardoz-logo.png', link: '' },
+        { img: 'img/sponsors/ski-banff-logo.jpg', link: '' },
+        { img: 'img/sponsors/spyder-logo.jpg', link: '' },
+        { img: 'img/sponsors/holidaze-logo.jpg', link: '' }
+    ];
+}])
 ;

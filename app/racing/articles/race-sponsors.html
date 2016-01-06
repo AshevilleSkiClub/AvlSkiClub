@@ -1,4 +1,4 @@
-<div>
+<div data-ng-controller="RacingSponsorsCtrl">
     <h1 class="text-left">
         Race Sponsors
     </h1>
@@ -7,44 +7,10 @@
         The following businesses have donated merchandise and/or certificates to the Crescent Ski Council. Their merchandise and certificates will be used as prizes to the top three finishers in each flight of the CSC Race Series. Please support these establishments and product lines at every possible opportunity.
     </p>
     <p>
-        <img src="img/sponsors/aspen-snowmass-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/dynastar-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/jackson-hole-logo.gif" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/bayou-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/copper-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/saucer-wax-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/alpine-ski-center-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/samuel-adams-logo.jpg" style="max-height: 300px; max-width: 300px;">
-        <img src="img/sponsors/canaan-valley-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/steamboat-logo.jpg" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/wolfridge-resort-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/telluride-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/whitefish-logo.gif" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/banana-boat-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/sports-america-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/steamboat-resorts-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/podium-wax-logo.gif" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/leki-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/polarmax-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/snowmass-village-logo.jpg" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/point6-logo.jpg" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/descente-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/sportube-logo.jpg" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/artech-logo.jpg" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/ski-country-sports-logo.jpg" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/snowshoe-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/peet-dryer-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/head-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/red-bull-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/cataloochee-logo.jpg" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/skigroup-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/winter-park-logo.jpg" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/taos-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/atomic-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/clif-bar-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/zardoz-logo.png" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/ski-banff-logo.jpg" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/spyder-logo.jpg" style="max-height: 300px; max-width: 300px; margin: 5px;">
-        <img src="img/sponsors/holidaze-logo.jpg" style="max-height: 300px; max-width: 300px; margin: 5px;">
+        <span ng-repeat="sponsor in sponsors track by $index">
+            <a href="{{sponsor.link}}" target="_blank">
+                <img ng-src="{{sponsor.img}}" style="max-height: 300px; max-width: 300px; margin: 5px;">
+            </a>
+        </span>
     </p>
 </div>
