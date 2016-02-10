@@ -46,21 +46,11 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
             date: 'March 4th - 6th'
 //            time: '5:00-9:00 pm',
 //            notes: 'See newsletter for more details'
-        },
-        {
-            name: 'Appalachian Mtn Race',
-//            location: 'Ashley Woods Park/Pavilion',
-//            address: 'Ashley Woods Dr Arden, NC 28704',
-//            mapUrl: 'https://www.google.com/maps/place/Ashley+Woods+Dr,+Arden,+NC+28704/@35.4841305,-82.5870739,17z/data=!3m1!4b1!4m2!3m1!1s0x885992e9c6b7965f:0xd968443366d43ac2',
-            date: 'January 30th - 31st'
-//            time: '5:00-9:00 pm',
-//            notes: 'See newsletter for more details'
         }
     ];
     
     $scope.slideInterval = 5000;
 	$scope.welcomeSlides = [ 
-        { src:'img/WarrenMiller.png' },
         { src:'img/welcomePic.png' },
         { src:'img/welcomePic2.png' },
         { src:'img/welcomePic3.png' },
