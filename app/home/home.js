@@ -20,7 +20,7 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 	};
     
     $scope.otherAnnouncements = [
-        {
+//        {
 //            name: 'Sugar Mtn Race',
 //            location: 'Ashley Woods Park/Pavilion',
 //            address: 'Ashley Woods Dr Arden, NC 28704',
