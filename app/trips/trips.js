@@ -11,10 +11,10 @@ angular.module('asc.trips', ['ngRoute'])
 
 .controller('TripsCtrl', ['$scope', function($scope) {
     $scope.trips = [
-        { name: 'Mt Bachelor', date: 'Jan 16-23, 2016', templatePath: 'trips/articles/mt-bachelor.html' },
-        { name: 'Courmayeur', date: 'Jan 23-31, 2016', templatePath: 'trips/articles/courmayeur.html' },
-        { name: 'Whistler-Blackcomb, BC', date: 'Feb 20-27, 2016', templatePath: 'trips/articles/whistler-blackcomb.html' },
-        { name: 'Big Sky', date: 'Mar 12-19, 2016', templatePath: 'trips/articles/big-sky.html' }
+//        { name: 'Mt Bachelor', date: 'Jan 16-23, 2016', templatePath: 'trips/articles/mt-bachelor.html' },
+//        { name: 'Courmayeur', date: 'Jan 23-31, 2016', templatePath: 'trips/articles/courmayeur.html' },
+//        { name: 'Whistler-Blackcomb, BC', date: 'Feb 20-27, 2016', templatePath: 'trips/articles/whistler-blackcomb.html' },
+//        { name: 'Big Sky', date: 'Mar 12-19, 2016', templatePath: 'trips/articles/big-sky.html' }
     ];
     
     $scope.changeSelected = function (trip) {

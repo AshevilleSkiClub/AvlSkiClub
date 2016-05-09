@@ -20,8 +20,8 @@ angular.module('asc.contact', ['ngRoute'])
                        { title: 'Treasurer', name: 'Don Shuford', email: 'donshuford@charter.net', phone: '828-777-0788' },
                        { title: 'Secretary', name: 'Nanci Burkey', email: 'nlbshrew@gmail.com', phone: '828-676-0355' }];
     
-    $scope.boardContacts = [{ title: 'Member', name: 'Lauren Wall', email: 'lwall50@bellsouth.net', phone: '828-628-9019' },
-                            { title: 'Member', name: 'Erik Sandstedt', email: 'seasonscatering@charter.net', phone: '828-654-9432' },
+    $scope.boardContacts = [{ title: 'Member', name: 'Jim Baker', email: 'james_baker100@att.net', phone: '978-855-9335' },
+                            { title: 'Member', name: 'Erik Sandstedt', email: 'sweski@gmail.com', phone: '828-242-1540' },
                             { title: 'Member', name: 'Jan Green', email: 'greenwine@charter.net', phone: '828-654-8482' },
                             { title: 'Member', name: 'Deborah Olsen', email: 'dwolsen1@gmail.com', phone: '828-280-2022' },
                             { title: 'Member', name: 'Paul Dobson', email: 'paultdobson@gmail.com', phone: '828-280-2022' }];
@@ -31,8 +31,8 @@ angular.module('asc.contact', ['ngRoute'])
                             { title: 'Publicity', name: 'Kasandra Tomboc', email: 'katomboc@mktctr.com', phone: '828-243-3320' },
                             { title: 'Socials', name: 'Open', email: '', phone: '' },
                             { title: 'Trip Director', name: 'Jeff Kenrick', email: 'jpkenrick@aol.com', phone: '828-246-3035' },
-                            { title: 'Racing', name: 'David Harrison', email: 'm3stripe@yahoo.com', phone: '828-275-1896' },
-                            { title: 'Racing', name: 'Bobby Roland', email: 'DTCRol@bellsouth.net', phone: '828-273-4811' },
+                            { title: 'Race Director', name: 'Erik Sandstedt', email: 'sweski@gmail.com', phone: '828-242-1540' },
+                            { title: 'Assistant Race Director', name: 'Bobby Roland', email: 'DTCRol@bellsouth.net', phone: '828-273-4811' },
                             { title: 'Special Olympics', name: 'Sam Lloyd', email: 'zlloyd@windstream.net', phone: '864-384-4546' },
                             { title: 'Webmaster', name: 'Alex Wang', email: 'alex.wang298@gmail.com', phone: '828-246-1160' }];
     
