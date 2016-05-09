@@ -42,7 +42,7 @@ angular.module('asc.racing', ['ngRoute'])
         { date: 'January 28 - 29', place: 'Wintergreen Resort, VA', time: ''},
         { date: 'February 1', place: 'Cupp Run Challenge at Snowshoe, WV', time: ''},
         { date: 'February 11 - 12', place: 'Beech Mt, NC', time: '10:00'},
-        { date: 'February 25 - 26', place: 'Sugar Mt, NC', time: '9:00'}
+        { date: 'February 25 - 26', place: 'Sugar Mt, NC', time: '9:00'},
         { date: 'March 10 - 12', place: 'Crescent Cup, SilverCreek, WV', time: '8:45 am'}
     ];
 }])
