@@ -12,7 +12,7 @@ angular.module('asc.trips', ['ngRoute'])
 .controller('TripsCtrl', ['$scope', function($scope) {
     $scope.trips = [
 //        { name: 'Mt Bachelor', date: 'Jan 16-23, 2016', templatePath: 'trips/articles/mt-bachelor.html' },
-//        { name: 'Courmayeur', date: 'Jan 23-31, 2016', templatePath: 'trips/articles/courmayeur.html' },
+        { name: 'Beaver Creek', date: 'Jan 14-21, 2017', templatePath: 'trips/articles/beaver-creek.html' }
 //        { name: 'Whistler-Blackcomb, BC', date: 'Feb 20-27, 2016', templatePath: 'trips/articles/whistler-blackcomb.html' },
 //        { name: 'Big Sky', date: 'Mar 12-19, 2016', templatePath: 'trips/articles/big-sky.html' }
     ];
