@@ -15,28 +15,16 @@ angular.module('asc.news', ['ngRoute'])
     ];
     
     $scope.ascNewsletters = [
+        { name: 'June 2016', src: 'newsletters/2016/ASC_Jun_2016.pdf' },
         { name: 'May 2016', src: 'newsletters/2016/ASC_May_2016.pdf' },
         { name: 'April 2016', src: 'newsletters/2016/ASC_Apr_2016.pdf' },
         { name: 'March 2016', src: 'newsletters/2016/ASC_Mar_2016.pdf' },
         { name: 'February 2016', src: 'newsletters/2016/ASC_Feb_2016.pdf' },
-        { name: 'January 2016', src: 'newsletters/2016/ASC_Jan_2016.pdf' },
-        { name: 'December 2015', src: 'newsletters/2015/ASC_Dec_2015.pdf' },
-        { name: 'November 2015', src: 'newsletters/2015/ASC_Nov_2015.pdf' },
-        { name: 'October 2015', src: 'newsletters/2015/ASC_Oct_2015.pdf' },
-        { name: 'September 2015', src: 'newsletters/2015/ASC_Sep_2015.pdf' },
-        { name: 'August 2015', src: 'newsletters/2015/ASC_Aug_2015.pdf' },
-        { name: 'July 2015', src: 'newsletters/2015/ASC_July_2015.pdf' },
-        { name: 'June 2015', src: 'newsletters/2015/ASC_June_2015.pdf' },
-        { name: 'May 2015', src: 'newsletters/2015/ASC_May_2015.pdf' }
+        { name: 'January 2016', src: 'newsletters/2016/ASC_Jan_2016.pdf' }
     ];
     
     $scope.cscNewsletters = [
-        { name: 'January 2016', src: 'newsletters/2016/CSC_Jan_2016_President_Update.pdf' },
-        { name: 'December 2015', src: 'newsletters/2015/CSC_December_2015_President_Update.pdf' },
-        { name: 'October 2015', src: 'newsletters/2015/CSC_October_2015_President_Update.pdf' },
-        { name: 'September 2015', src: 'newsletters/2015/CSC_September_2015_President_Update.pdf' },
-        { name: 'August 2015', src: 'newsletters/2015/CSC_August_2015_President.pdf' },
-        { name: 'June 2015', src: 'newsletters/2015/Crescent_June_President_Update.pdf' }
+        { name: 'May 2016', src: 'newsletters/2016/CSC_May_2016_President_Update.pdf' }
     ];
     
     $scope.nscNewsletters = [

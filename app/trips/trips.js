@@ -13,8 +13,8 @@ angular.module('asc.trips', ['ngRoute'])
     $scope.trips = [
         { name: 'Steamboat', date: 'Dec 3-10, 2016', templatePath: 'trips/articles/steamboat.html' },
         { name: 'Beaver Creek', date: 'Jan 14-21, 2017', templatePath: 'trips/articles/beaver-creek.html' },
-        { name: 'St. Moritz, Switzerland', date: 'Jan 28-Feb 5, 2017', templatePath: 'trips/articles/st-moritz.html' }
-//        { name: 'Big Sky', date: 'Mar 12-19, 2016', templatePath: 'trips/articles/big-sky.html' }
+        { name: 'St. Moritz, Switzerland', date: 'Jan 28-Feb 5, 2017', templatePath: 'trips/articles/st-moritz.html' },
+        { name: 'Greek Isle Cruise', date: 'June 10-17, 2017', templatePath: 'trips/articles/greek-isle-cruise.html' }
     ];
     
     $scope.changeSelected = function (trip) {
