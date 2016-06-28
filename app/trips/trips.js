@@ -14,6 +14,8 @@ angular.module('asc.trips', ['ngRoute'])
         { name: 'Steamboat', date: 'Dec 3-10, 2016', templatePath: 'trips/articles/steamboat.html' },
         { name: 'Beaver Creek', date: 'Jan 14-21, 2017', templatePath: 'trips/articles/beaver-creek.html' },
         { name: 'St. Moritz, Switzerland', date: 'Jan 28-Feb 5, 2017', templatePath: 'trips/articles/st-moritz.html' },
+        { name: 'Banff, Canada', date: 'Feb 18-25, 2017', templatePath: 'trips/articles/banff.html' },
+        { name: 'Winter Park', date: 'Mar 25-Apr 1, 2017', templatePath: 'trips/articles/winter-park.html' },
         { name: 'Greek Isle Cruise', date: 'June 10-17, 2017', templatePath: 'trips/articles/greek-isle-cruise.html' }
     ];
     
