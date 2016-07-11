@@ -26,7 +26,7 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
             address: 'Starts at Green Man Brewery Tasting Room',
             mapUrl: 'https://www.google.com/maps?rlz=1C1ADCB_enUS568US568&biw=1920&bih=975&q=green+man+brewery&bav=on.2,or.r_cp.&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiRouq8yurNAhWBQSYKHazdCC0Q_AUIBigB',
             date: 'Friday, July 29',
-            time: 'Starts at 4',
+            time: 'Starts at 4 pm',
             notes: ''
         },
         {
