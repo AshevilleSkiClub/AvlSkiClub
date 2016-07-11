@@ -15,16 +15,14 @@
     <div ng-repeat="announcement in otherAnnouncements track by $index">
       <br/>
       <h3>{{announcement.name}}</h3>
-<!--
       <p>
         <a target="_blank" href="{{announcement.mapUrl}}">
             {{announcement.location}}<br/>{{announcement.address}}
         </a>
       </p>
--->
-<!--      <h6>on</h6>-->
-      <p>{{announcement.date}}<!--<br/>{{announcement.time}}--></p>
-<!--      <p data-ng-if="announcement.notes">{{announcement.notes}}</p>-->
+      <h6>on</h6>
+      <p>{{announcement.date}}<br/>{{announcement.time}}</p>
+      <p data-ng-if="announcement.notes">{{announcement.notes}}</p>
     </div>
     
   </div>
