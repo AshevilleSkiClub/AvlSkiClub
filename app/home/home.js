@@ -12,11 +12,12 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 .controller('HomeCtrl', ['$scope', function($scope) {
 	$scope.monthlyMeeting = { 
         topic: 'TBD', 
-        location: 'Pack\'s Tavern', 
-        address: '20 S Spruce St Asheville, NC 28801', 
-        mapUrl: 'https://www.google.com/maps/place/Pack\'s+Tavern/@35.595082,-82.5517567,17z/data=!3m1!4b1!4m5!3m4!1s0x8859f3584a97e195:0x5b32226bf259602d!8m2!3d35.595082!4d-82.549568',
-        date: 'Tuesday, July 12',
-        time: '6:30 pm social, 7:00 pm meeting'
+        location: 'Carrier Park at the Pavilion', 
+        address: '220 Amboy Rd Asheville, NC 28806', 
+        mapUrl: 'https://www.google.com/maps/place/Carrier+Park/@35.5659045,-82.5839026,17z/data=!3m1!4b1!4m5!3m4!1s0x88598cdca358fc15:0xac8a261a869741bf!8m2!3d35.5659002!4d-82.5817139',
+        date: 'Tuesday, August 9',
+        time: '5:30 pm fun and games, 7:00 pm meeting',
+        notes: 'Main dish and soft drinks provided by club. Please bring side dish'
 	};
     
     $scope.otherAnnouncements = [
