@@ -11,7 +11,7 @@ angular.module('asc.news', ['ngRoute'])
 
 .controller('NewsCtrl', ['$scope', function($scope) {
 	$scope.articles = [
-        { name: 'Newsletter Editor\'s Note' templatePath: 'news/articles/editors-note.html' }
+        { name: 'Newsletter Editor\'s Note', templatePath: 'news/articles/editors-note.html' }
     ];
     
     $scope.ascNewsletters = [
