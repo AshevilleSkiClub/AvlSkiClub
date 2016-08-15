@@ -11,10 +11,11 @@ angular.module('asc.news', ['ngRoute'])
 
 .controller('NewsCtrl', ['$scope', function($scope) {
 	$scope.articles = [
-        { name: 'Whistler-Blackcomb Trip', templatePath: 'news/articles/whistler-trip.html' }
+        { name: 'Newsletter Editor\'s Note, templatePath: 'news/articles/editors-note.html' }
     ];
     
     $scope.ascNewsletters = [
+        { name: 'August 2016', src: 'newsletters/2016/ASC_Aug_2016.pdf' },
         { name: 'July 2016', src: 'newsletters/2016/ASC_July_2016.pdf' },
         { name: 'June 2016', src: 'newsletters/2016/ASC_Jun_2016.pdf' },
         { name: 'May 2016', src: 'newsletters/2016/ASC_May_2016.pdf' },
