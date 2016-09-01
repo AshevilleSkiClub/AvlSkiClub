@@ -26,6 +26,7 @@ angular.module('asc.news', ['ngRoute'])
     ];
     
     $scope.cscNewsletters = [
+        { name: 'May 2016', src: 'newsletters/2016/CSC_Aug_2016_President_Update.pdf' },
         { name: 'May 2016', src: 'newsletters/2016/CSC_May_2016_President_Update.pdf' }
     ];
     
