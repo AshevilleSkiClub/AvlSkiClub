@@ -23,8 +23,8 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
     $scope.otherAnnouncements = [
         {
             name: ' Annual Ullr Fest/Costume Party',
-            location: 'Little Oak on South Holston Lake',
-            address: 'Greg Caspsers\' and Susan Slettdal\'s',
+            location: 'Greg Caspsers\' and Susan Slettdal\'s',
+            address: '',
             mapUrl: 'https://www.google.com/maps/place/Asheville,+NC/@35.538851,-82.7054901,11z/data=!3m1!4b1!4m5!3m4!1s0x88598ca93c0f6f09:0x94ef31c106343a5d!8m2!3d35.5950581!4d-82.5514869',
             date: 'October 29',
             time: '',
