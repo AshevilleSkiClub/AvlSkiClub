@@ -15,6 +15,7 @@ angular.module('asc.news', ['ngRoute'])
     ];
     
     $scope.ascNewsletters = [
+        { name: 'November 2016', src: 'newsletters/2016/ASC_Nov_2016.pdf' },
         { name: 'October 2016', src: 'newsletters/2016/ASC_Oct_2016.pdf' },
         { name: 'September 2016', src: 'newsletters/2016/ASC_Sept_2016.pdf' },
         { name: 'August 2016', src: 'newsletters/2016/ASC_Aug_2016.pdf' },
