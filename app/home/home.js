@@ -11,24 +11,24 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 
 .controller('HomeCtrl', ['$scope', function($scope) {
 	$scope.monthlyMeeting = { 
-        topic: 'TBD', 
-        location: 'Ski Country Sports', 
-        address: '1000 Merrimon Ave, Asheville, NC 28804', 
-        mapUrl: 'https://www.google.com/maps/place/Ski+Country+Sports/@35.63155,-82.5567417,17z/data=!3m1!4b1!4m5!3m4!1s0x8859f4d1c8b9f0d5:0x992ff8177143b2a2!8m2!3d35.63155!4d-82.554553',
-        date: 'Tuesday, November 8',
+        topic: 'Auction Night', 
+        location: 'Southern Kitchen and Bar', 
+        address: '41 N Lexington Ave, Asheville, NC 28801', 
+        mapUrl: 'https://www.google.com/maps/place/The+Southern+Kitchen+And+Bar/@35.5962911,-82.555519,17z/data=!3m1!4b1!4m5!3m4!1s0x8859f357b3fdd449:0xd0de41a5c65a6e86!8m2!3d35.5962911!4d-82.5533303',
+        date: 'Tuesday, December 13',
         time: '6:30 pm networking and shopping, 7:00 pm meeting',
-        notes: 'Special sale with food and beverage'
+        notes: 'Bring an item from your business or personal trunk to auction. Ask your favorite restaurant or retail/establishment for an item or gift certificate to auction'
 	};
     
     $scope.otherAnnouncements = [
         {
-            name: 'Warren Miller\'s Here, There & Everywhere',
-            location: 'Fine Arts Theatre',
-            address: '36 Biltmore Ave, Asheville, NC 28801',
-            mapUrl: 'https://www.google.com/maps/place/Fine+Arts+Theatre/@35.593571,-82.5533137,17z/data=!3m1!4b1!4m5!3m4!1s0x8859f359e223c221:0x70a200d72c8d1b05!8m2!3d35.593571!4d-82.551125',
-            date: 'November 10',
+            name: 'First race',
+            location: 'Appalachian Mountain',
+            address: '940 Ski Mountain Rd, Blowing Rock, NC 28605',
+            mapUrl: 'https://www.google.com/maps/place/Alpine+Ski+Shop+Appalachian+Ski+MTN./@36.1744099,-81.664746,17z/data=!3m1!4b1!4m5!3m4!1s0x8850faef1c46ed2b:0x8433bb841353dd0d!8m2!3d36.1744099!4d-81.6625573',
+            date: 'December 17-18',
             time: '',
-            notes: 'Ticket sales are picking up so do not wait to purchase.  A free lift ticket from Cataloochee will be offered to all in attendance.'
+            notes: ''
         }
     ];
     
