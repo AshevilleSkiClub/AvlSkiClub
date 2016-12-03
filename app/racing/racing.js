@@ -96,7 +96,7 @@ angular.module('asc.racing', ['ngRoute'])
         { img: 'img/sponsors/atomic-logo.png', link: 'https://www.atomic.com/en-us' },
         { img: 'img/sponsors/clif-bar-logo.png', link: 'http://www.clifbar.com/' },
         { img: 'img/sponsors/zardoz-logo.png', link: 'http://www.zardoznotwax.com/' },
-        { img: 'img/sponsors/spyder-logo.jpg', link: 'http://www.spyder.com/' }
+        { img: 'img/sponsors/spyder-logo.png', link: 'http://www.spyder.com/' }
     ];
 }])
 ;
