@@ -22,5 +22,5 @@ angular.module('asc.resorts', ['ngRoute'])
                       { name: 'Lake Louise', href: 'https://www.skilouise.com/' },
                       { name: 'Mt Norquay', href: 'http://winter.banffnorquay.com/' },
                       { name: 'Sunshine Village', href: 'http://www.skibanff.com/' },
-                      { name: 'Beaver Creek', href: 'http://www.beavercreek.com/' }
+                      { name: 'Beaver Creek', href: 'http://www.beavercreek.com/' }];
 }]);
