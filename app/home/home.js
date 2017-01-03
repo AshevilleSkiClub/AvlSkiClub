@@ -11,22 +11,22 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 
 .controller('HomeCtrl', ['$scope', function($scope) {
 	$scope.monthlyMeeting = { 
-        topic: 'Auction Night', 
-        location: 'Southern Kitchen and Bar', 
-        address: '41 N Lexington Ave, Asheville, NC 28801', 
-        mapUrl: 'https://www.google.com/maps/place/The+Southern+Kitchen+And+Bar/@35.5962911,-82.555519,17z/data=!3m1!4b1!4m5!3m4!1s0x8859f357b3fdd449:0xd0de41a5c65a6e86!8m2!3d35.5962911!4d-82.5533303',
-        date: 'Tuesday, December 13',
-        time: '6:30 pm networking and shopping, 7:00 pm meeting',
-        notes: 'Bring an item from your business or personal trunk to auction. Ask your favorite restaurant or retail/establishment for an item or gift certificate to auction'
+        topic: 'Fitness for Skiing by Susan Robinson', 
+        location: 'Twisted Laurel', 
+        address: '130 College St, Asheville, NC 28801', 
+        mapUrl: 'https://goo.gl/maps/Cj5obZ5swpp',
+        date: 'Tuesday, January 10',
+        time: '6:30 pm social, 7:00 pm meeting/program',
+        notes: ''
 	};
     
     $scope.otherAnnouncements = [
         {
-            name: 'First race',
-            location: 'Appalachian Mountain',
-            address: '940 Ski Mountain Rd, Blowing Rock, NC 28605',
-            mapUrl: 'https://www.google.com/maps/place/Alpine+Ski+Shop+Appalachian+Ski+MTN./@36.1744099,-81.664746,17z/data=!3m1!4b1!4m5!3m4!1s0x8850faef1c46ed2b:0x8433bb841353dd0d!8m2!3d36.1744099!4d-81.6625573',
-            date: 'December 17-18',
+            name: 'Race',
+            location: 'Sugar Mountain',
+            address: '1009 Sugar Mountain Dr, Sugar Mountain, NC 28604',
+            mapUrl: 'https://goo.gl/maps/ohzhjFX14Zo',
+            date: 'January 07-08',
             time: '',
             notes: ''
         }
