@@ -32,7 +32,7 @@ angular.module('asc.contact', ['ngRoute'])
                             { title: 'Socials', name: 'Open', email: '', phone: '' },
                             { title: 'Trip Director', name: 'Jeff Kenrick', email: 'jpkenrick@aol.com', phone: '828-246-3035' },
                             { title: 'Race Director', name: 'Erik Sandstedt', email: 'sweski@gmail.com', phone: '828-242-1540' },
-                            { title: 'Assistant Race Director', name: 'Bobby Roland', email: 'DTCRol@bellsouth.net', phone: '828-273-4811' },
+                            { title: 'Junior Race Captain', name: 'Doug Macmillan', email: 'dpmacmillan@earthlink.net', phone: '828-545-9951' },
                             { title: 'Special Olympics', name: 'Sam Lloyd', email: 'zlloyd@windstream.net', phone: '864-384-4546' },
                             { title: 'Webmaster', name: 'Alex Wang', email: 'alex.wang298@gmail.com', phone: '828-246-1160' }];
     
