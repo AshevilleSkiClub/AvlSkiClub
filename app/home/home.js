@@ -11,11 +11,11 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 
 .controller('HomeCtrl', ['$scope', function($scope) {
 	$scope.monthlyMeeting = { 
-        topic: 'Fitness for Skiing by Susan Robinson', 
+        topic: 'Trip Reviews for Steamboat, Beaver Creek, and St. Moritz', 
         location: 'Twisted Laurel', 
         address: '130 College St, Asheville, NC 28801', 
         mapUrl: 'https://goo.gl/maps/Cj5obZ5swpp',
-        date: 'Tuesday, January 10',
+        date: 'Tuesday, February 14',
         time: '6:30 pm social, 7:00 pm meeting/program',
         notes: ''
 	};
