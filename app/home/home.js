@@ -17,7 +17,7 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
         mapUrl: 'https://goo.gl/maps/Cj5obZ5swpp',
         date: 'Tuesday, February 14',
         time: '6:30 pm social, 7:00 pm meeting/program',
-        notes: ''
+        notes: 'Appetizers provided. Bring drinks and meals.'
 	};
     
     $scope.otherAnnouncements = [
@@ -26,7 +26,7 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
             location: 'Sugar Mountain',
             address: '1009 Sugar Mountain Dr, Sugar Mountain, NC 28604',
             mapUrl: 'https://goo.gl/maps/ohzhjFX14Zo',
-            date: 'January 07-08',
+            date: 'February 25-26',
             time: '',
             notes: ''
         }

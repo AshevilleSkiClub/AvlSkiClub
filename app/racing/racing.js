@@ -60,6 +60,7 @@ angular.module('asc.racing', ['ngRoute'])
 
 .controller('RacingSponsorsCtrl', ['$scope', function($scope) {
     $scope.sponsors = [
+        { img: 'img/sponsors/parks_collision_logo.jpg', link: 'javascript:void(0)' },
         { img: 'img/sponsors/aspen-snowmass-logo.png', link: 'https://www.aspensnowmass.com/' },
         { img: 'img/sponsors/dynastar-logo.png', link: 'http://www.dynastar.com/US/US/' },
         { img: 'img/sponsors/jackson-hole-logo.gif', link: 'http://www.jacksonhole.com/' },
