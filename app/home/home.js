@@ -16,7 +16,7 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
         address: '130 College St, Asheville, NC 28801', 
         mapUrl: 'https://goo.gl/maps/Cj5obZ5swpp',
         date: 'Tuesday, May 9',
-        time: '6:00 pm - 8:00 pm',
+        time: '6:00 pm social, 6:30 pm meeting',
         notes: ''
 	};
     
