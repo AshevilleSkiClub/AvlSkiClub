@@ -11,7 +11,9 @@ angular.module('asc.trips', ['ngRoute'])
 
 .controller('TripsCtrl', ['$scope', function($scope) {
     $scope.trips = [
-        { name: 'Greek Isle Cruise CLOSED OUT', date: 'June 10-17, 2017', templatePath: 'trips/articles/greek-isle-cruise.html' }
+        { name: 'Val Gardena - Dolomites', date: 'January 26 - February 6, 2018', templatePath: 'trips/articles/val-gardena.html' },
+        { name: 'Park City', date: 'February 24 - March 3, 2018', templatePath: 'trips/articles/park-city.html' },
+        { name: 'Breckenridge', date: 'April 2 - 8, 2017', templatePath: 'trips/articles/breckenridge.html' }
     ];
     
     $scope.changeSelected = function (trip) {
