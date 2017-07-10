@@ -11,13 +11,13 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 
 .controller('HomeCtrl', ['$scope', function($scope) {
 	$scope.monthlyMeeting = { 
-        topic: 'Trip Info', 
-        location: 'Governer\'s Western Residence', 
-        address: '45 Patton Mountain Road, Asheville, NC 28804', 
-        mapUrl: 'https://www.google.com/maps/place/45+Patton+Mountain+Rd,+Asheville,+NC+28804/@35.623663,-82.5340096,17z/data=!4m13!1m7!3m6!1s0x8859f4edd43215a3:0x5842359f794166b9!2s45+Patton+Mountain+Rd,+Asheville,+NC+28804!3b1!8m2!3d35.623663!4d-82.5318209!3m4!1s0x8859f4edd43215a3:0x5842359f794166b9!8m2!3d35.623663!4d-82.5318209',
-        date: 'Tuesday, June 13',
-        time: '6:00 - 7:00 pm social and meal, 7:00 pm meeting',
-        notes: ''
+        topic: 'Fun on the river and Carrier Park', 
+        location: 'Asheville Outdoor Center', 
+        address: '521 Amboy Rd, Asheville, NC 28806', 
+        mapUrl: 'https://goo.gl/maps/LhBg2kBTZqL2',
+        date: 'Tuesday, July 11',
+        time: '6:00 pm networking/volleyball, 7:00 pm meeting',
+        notes: 'Bring a dish to share. No BYOB. AOC sells beer and wine.'
 	};
     
     $scope.otherAnnouncements = [];
