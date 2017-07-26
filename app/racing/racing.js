@@ -42,7 +42,7 @@ angular.module('asc.racing', ['ngRoute'])
         { date: 'January 27 - 28', place: 'Canaan Valley, WV', time: 'TBD' },
         { date: 'February 05', place: 'Cupp Run Challenge at Snowshoe, WV', time: '' },
         { date: 'February 10 - 11', place: 'Beech Mt, NC', time: '10:00' },
-        { date: 'February 24 - 25', place: 'Appalachian Mt, NC', time: '9:00' },
+        { date: 'February 24 - 25', place: 'Appalachian Mt, NC', time: '9:30' },
         { date: 'March TBA', place: 'Governer\'s Cup Race at Timberline, WV', time: '' },
         { date: 'March 4', place: 'Dick Trundy/Sugar Cup GC at Sugar Mt, NC', time: '9:00' },
         { date: 'March 09 - 11', place: 'Crescent Cup, SilverCreek, WV', time: '8:45' },
