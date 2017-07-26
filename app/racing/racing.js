@@ -36,24 +36,27 @@ angular.module('asc.racing', ['ngRoute'])
 
 .controller('RacingScheduleCtrl', ['$scope', function($scope) {
     $scope.schedule = [
-        { date: 'December 4', place: 'Appalachian Mt, NC (Race Development)', time: '9:45 - 3:00'},
-        { date: 'December 17 - 18', place: 'Appalachian Mt, NC', time: '9:30'},
-        { date: 'January 07 - 08', place: 'Sugar Mt, NC', time: '9:00'},
-        { date: 'January 28 - 29', place: 'Wintergreen Resort, VA', time: ''},
-        { date: 'February 1', place: 'Cupp Run Challenge at Snowshoe, WV', time: ''},
-        { date: 'February 11 - 12', place: 'Beech Mt, NC', time: '10:00'},
-        { date: 'February 25 - 26', place: 'Sugar Mt, NC', time: '9:00'},
-        { date: 'March 10 - 12', place: 'Crescent Cup, SilverCreek, WV', time: '8:45 am'}
+        { date: 'December 16 - 17', place: 'Appalachian Mt, NC', time: '9:30' },
+        { date: 'January 06 - 07', place: 'Sugar Mt, NC', time: '9:00' },
+        { date: 'January 07 - 14', place: 'Crescent Ski Council Ski Week', time: '' },
+        { date: 'January 27 - 28', place: 'Canaan Valley, WV', time: 'TBD' },
+        { date: 'February 05', place: 'Cupp Run Challenge at Snowshoe, WV', time: '' },
+        { date: 'February 10 - 11', place: 'Beech Mt, NC', time: '10:00' },
+        { date: 'February 24 - 25', place: 'Appalachian Mt, NC', time: '9:00' },
+        { date: 'March TBA', place: 'Governer\'s Cup Race at Timberline, WV', time: '' },
+        { date: 'March 4', place: 'Dick Trundy/Sugar Cup GC at Sugar Mt, NC', time: '9:00' },
+        { date: 'March 09 - 11', place: 'Crescent Cup, SilverCreek, WV', time: '8:45' },
+        { date: 'March 21 - 25', place: 'NASTAR Nationals at Squaw Valley, CA', time: '' }
     ];
 }])
 
 .controller('RacingCampsCtrl', ['$scope', function($scope) {
     $scope.camps = [
-        { date: 'December 5 - 12', place: 'Steamboat Race Camp', info: 'Sports Am.Tours: 800-876-8551'},
-        { date: 'December', place: 'Killington Race Camp', info: '800-621-6867'},
-        { date: 'December 6', place: 'CSC Development Training at Appalachian', info: '9:46 am - 3:00 pm'},
-        { date: 'December 11 - 13', place: 'Sugar Mt. Race Camp', info: 'Kim Jöchl: 828-898-4521 x224'},
-        { date: 'December', place: 'Timberline, WV  Ski School', info: '304-866-4801, Multiple sessions'}
+        { date: 'December 02 - 09', place: 'Steamboat Race Camp', info: 'Sports Am.Tours: 800-876-8551'},
+        { date: 'December', place: 'Killington Race Camp', info: '800-752-2005'},
+        { date: 'December 03', place: 'CSC Development Training at Appalachian', info: '9:45 - 3:00'},
+        { date: 'December 08 - 10', place: 'Sugar Mt. Race Camp', info: 'Kim Jöchl: 828-898-4521 x224'},
+        { date: 'December', place: 'Timberline, WV  Ski School', info: '304-866-4801, Tim Worden is RD'}
     ];
 }])
 
