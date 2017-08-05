@@ -11,13 +11,13 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 
 .controller('HomeCtrl', ['$scope', function($scope) {
 	$scope.monthlyMeeting = { 
-        topic: 'Fun on the river and Carrier Park', 
-        location: 'Asheville Outdoor Center', 
-        address: '521 Amboy Rd, Asheville, NC 28806', 
-        mapUrl: 'https://goo.gl/maps/LhBg2kBTZqL2',
-        date: 'Tuesday, July 11',
-        time: '6:00 pm networking/volleyball, 7:00 pm meeting',
-        notes: 'Bring a dish to share. No BYOB. AOC sells beer and wine.'
+        topic: 'TBD', 
+        location: 'Sierra Nevada', 
+        address: '100 Sierra Nevada Way, Mills River, NC 28732', 
+        mapUrl: 'https://goo.gl/maps/EgmyxeTFTnJ2',
+        date: 'Tuesday, August 8',
+        time: '6:30 pm meeting social, 5:00 - 6:30 pm private tour',
+        notes: 'Contact Wayne Bailey by August 5th to reserve your space for the tour.'
 	};
     
     $scope.otherAnnouncements = [];
