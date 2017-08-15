@@ -43,6 +43,15 @@
                     <td><a href="mailto:{{contact.email}}">{{contact.email}}</a></td>
                     <td>{{contact.phone}}</td>
                 </tr>
+                <tr class="table-title-row">
+                    <td colspan="4"><a name="racing" class="jump-to-link"><h3>Racing</h3></a><br/></td>
+                </tr>
+                <tr data-ng-repeat="contact in racingContacts">
+                    <td>{{contact.title}}</td>
+                    <td>{{contact.name}}</td>
+                    <td><a href="mailto:{{contact.email}}">{{contact.email}}</a></td>
+                    <td>{{contact.phone}}</td>
+                </tr>
             </tbody>
         </table>
     </div>
