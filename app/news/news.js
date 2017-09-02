@@ -15,6 +15,7 @@ angular.module('asc.news', ['ngRoute'])
     ];
     
     $scope.ascNewsletters = [
+        { name: 'September 2017', src: 'newsletters/2017/ASC_Sep_2017.pdf' },
         { name: 'August 2017', src: 'newsletters/2017/ASC_Aug_2017.pdf' },
         { name: 'July 2017', src: 'newsletters/2017/ASC_Jul_2017.pdf' },
         { name: 'June 2017', src: 'newsletters/2017/ASC_Jun_2017.pdf' },
@@ -26,8 +27,8 @@ angular.module('asc.news', ['ngRoute'])
     ];
     
     $scope.cscNewsletters = [
-        { name: 'August 2016', src: 'newsletters/2016/CSC_Aug_2016_President_Update.pdf' },
-        { name: 'May 2016', src: 'newsletters/2016/CSC_May_2016_President_Update.pdf' }
+        { name: 'August 2017', src: 'newsletters/2017/CSC_Aug_2017_President_Update.pdf' },
+        { name: 'CSC 2017 Fall Conference Forms', src: 'newsletters/2017/CSC_2017_Fall_Conference.pdf' }
     ];
     
     $scope.nscNewsletters = [
