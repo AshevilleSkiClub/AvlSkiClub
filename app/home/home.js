@@ -36,7 +36,7 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
         mapUrl: 'https://goo.gl/maps/pCZbL8FCDQB2',
         date: 'October 26',
         time: '7:00',
-        notes: 'Tickets on sale at Fine Arts Theater or '
+        notes: 'Tickets on sale at Fine Arts Theater or online at '
     }];
     
     $scope.slideInterval = 5000;
