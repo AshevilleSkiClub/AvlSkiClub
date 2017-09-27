@@ -15,21 +15,12 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
         location: 'Governor\'s Western Residence', 
         address: '45 Patton Mountain Road, Asheville, NC 28804', 
         mapUrl: 'https://goo.gl/maps/iykSV3wEhu22',
-        date: 'Tuesday, September 12',
+        date: 'Tuesday, October 10',
         time: '6:30 pm social, 7:00 pm meeting/announcements',
         notes: 'Bring a dish to share.  BYOB - wine and beer only. Liquor is not allowed.'
 	};
     
     $scope.otherAnnouncements = [{ 
-        name: 'Hike at Graveyard Fields', 
-        location: 'Graveyard Fields', 
-        address: 'Graveyard Fields, Canton, NC 28716', 
-        mapUrl: 'https://goo.gl/maps/uMc5Y5WaMa52',
-        date: 'September 16',
-        time: 'Meet at 9:00',
-        notes: 'Meet at the Ingles on Brevard Road across from Asheville Outlets. RSVP to Jeff Kenrick'
-    },
-    { 
         name: 'Wicked Weed Social', 
         location: 'Wicked Weed', 
         address: '91 Biltmore Ave, Asheville, NC 28801', 
@@ -37,6 +28,15 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
         date: 'September 26',
         time: '5:00 - 6:15 pm',
         notes: ''
+    },
+    { 
+        name: 'Warren Miller\'s "Line of Descent"', 
+        location: 'Fine Arts Theater', 
+        address: '36 Biltmore Ave, Asheville, NC 28801', 
+        mapUrl: 'https://goo.gl/maps/pCZbL8FCDQB2',
+        date: 'October 26',
+        time: '7:00',
+        notes: 'Tickets on sale at Fine Arts Theater or '
     }];
     
     $scope.slideInterval = 5000;
