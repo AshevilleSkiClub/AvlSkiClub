@@ -52,7 +52,7 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
         name: 'Caving with Ellen Hofler', 
         location: 'Meet in Weaverville, carpooling to cave in Tennessee', 
         address: '', 
-        mapUrl: '',
+        mapUrl: 'https://goo.gl/maps/p5xPWg4XN1s',
         date: 'October 29',
         time: '',
         notes: ' to rsvp'
