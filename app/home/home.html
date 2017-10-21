@@ -14,8 +14,8 @@
     <h6 data-ng-if="monthlyMeeting.notes">{{monthlyMeeting.notes}}</h6>
     <div ng-repeat="announcement in otherAnnouncements track by $index">
       <br/>
-      <h3 data-ng-if="$index != 1">{{announcement.name}}</h3>
-      <h3 data-ng-if="$index === 1"><a target="_blank" href="https://www.youtube.com/watch?v=t5J1cJwXlO0">{{announcement.name}}</a></h3>
+      <h3 data-ng-if="$index != 0">{{announcement.name}}</h3>
+      <h3 data-ng-if="$index === 0"><a target="_blank" href="https://www.youtube.com/watch?v=t5J1cJwXlO0">{{announcement.name}}</a></h3>
       <p>
         <a target="_blank" href="{{announcement.mapUrl}}">
             {{announcement.location}}<br/>{{announcement.address}}
@@ -23,7 +23,7 @@
       </p>
       <h6>on</h6>
       <p>{{announcement.date}}<br/>{{announcement.time}}</p>
-      <p data-ng-if="announcement.notes">{{announcement.notes}}<span data-ng-if="$index === 1"><a target="_blank" href="http://9850.formovietickets.com:2235/">http://9850.formovietickets.com:2235/</a></span></p>
+      <p data-ng-if="announcement.notes"><span data-ng-if="$index === 3"><a href="mailto:ellenhofler@gmail.com">ellenhofler@gmail.com</a></span>{{announcement.notes}}<span data-ng-if="$index === 0"><a target="_blank" href="http://9850.formovietickets.com:2235/">http://9850.formovietickets.com:2235/</a></span></p>
     </div>
     
   </div>

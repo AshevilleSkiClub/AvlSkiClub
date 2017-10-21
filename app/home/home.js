@@ -12,23 +12,15 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 .controller('HomeCtrl', ['$scope', function($scope) {
 	$scope.monthlyMeeting = { 
         topic: 'TBD', 
-        location: 'Governor\'s Western Residence', 
-        address: '45 Patton Mountain Road, Asheville, NC 28804', 
-        mapUrl: 'https://goo.gl/maps/iykSV3wEhu22',
-        date: 'Tuesday, October 10',
-        time: '6:30 pm social, 7:00 pm meeting/announcements',
-        notes: 'Bring a dish to share.  BYOB - wine and beer only. Liquor is not allowed.'
+        location: 'Ski Country Sports', 
+        address: '1000 Merrimon Ave, Asheville, NC 28804', 
+        mapUrl: 'https://goo.gl/maps/NkdbwjTorG32',
+        date: 'Tuesday, November 14',
+        time: '6:30 pm - 8:00 pm',
+        notes: ''
 	};
     
-    $scope.otherAnnouncements = [{ 
-        name: 'Wicked Weed Social', 
-        location: 'Wicked Weed', 
-        address: '91 Biltmore Ave, Asheville, NC 28801', 
-        mapUrl: 'https://goo.gl/maps/E1pEnEaxUyL2',
-        date: 'September 26',
-        time: '5:00 - 6:15 pm',
-        notes: ''
-    },
+    $scope.otherAnnouncements = [
     { 
         name: 'Warren Miller\'s "Line of Descent"', 
         location: 'Fine Arts Theater', 
@@ -37,6 +29,33 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
         date: 'October 26',
         time: '7:00',
         notes: 'Tickets on sale at Fine Arts Theater or online at '
+    },
+    { 
+        name: 'Picnic at Wolf Laurel Ski Resort', 
+        location: 'Wolf Laurel Ski Resort', 
+        address: '578 Valley View Cir, Mars Hill, NC 28754', 
+        mapUrl: 'https://goo.gl/maps/nhXbJJagL4G2',
+        date: 'October 28',
+        time: '11:30 - 2:00',
+        notes: 'Bring a dish to share and purchase season passes'
+    },
+    { 
+        name: 'Ullr Fest', 
+        location: 'Ashley Woods', 
+        address: 'Ashley Woods Dr, Arden, NC 28704', 
+        mapUrl: 'https://goo.gl/maps/pk93DTMmvLM2',
+        date: 'October 28',
+        time: '6:00 - 9:00',
+        notes: 'Bring a dish to share and BYOB'
+    },
+    { 
+        name: 'Caving with Ellen Hofler', 
+        location: 'Meet in Weaverville, carpooling to cave in Tennessee', 
+        address: '', 
+        mapUrl: '',
+        date: 'October 29',
+        time: '',
+        notes: ' to rsvp'
     }];
     
     $scope.slideInterval = 5000;
