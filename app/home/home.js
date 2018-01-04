@@ -11,12 +11,12 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 
 .controller('HomeCtrl', ['$scope', function($scope) {
 	$scope.monthlyMeeting = { 
-        topic: 'TBD', 
+        topic: 'Line dancing', 
         location: 'Twisted Laurel', 
         address: '130 College St, Asheville, NC 28801', 
         mapUrl: 'https://goo.gl/maps/eHkee6w8VbC2',
-        date: 'Tuesday, December 12',
-        time: '6:30 pm social and auction, 7:00 pm meeting',
+        date: 'Tuesday, January 9',
+        time: '6:30 pm',
         notes: ''
 	};
     
