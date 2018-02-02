@@ -11,34 +11,26 @@ angular.module('asc.home', ['ngRoute', 'ui.bootstrap', 'ngAnimate'])
 
 .controller('HomeCtrl', ['$scope', function($scope) {
 	$scope.monthlyMeeting = { 
-        topic: 'Line dancing', 
+        topic: 'TBD', 
         location: 'Twisted Laurel', 
         address: '130 College St, Asheville, NC 28801', 
         mapUrl: 'https://goo.gl/maps/eHkee6w8VbC2',
-        date: 'Tuesday, January 9',
+        date: 'Tuesday, February 13',
         time: '6:30 pm',
         notes: ''
 	};
     
     $scope.otherAnnouncements = [
-    { 
-        name: 'Steamboat Ski Week', 
-        location: 'Steamboat', 
-        address: '2305 Mt Werner Cir, Steamboat Springs, CO 80487', 
-        mapUrl: 'https://goo.gl/maps/nhXbJJagL4G2',
-        date: 'December 2 - 9',
-        time: '',
-        notes: ''
-    },
-    { 
-        name: 'Race at Appalachian Mtn', 
-        location: 'Appalachian Ski Mtn', 
-        address: '940 Ski Mountain Rd, Blowing Rock, NC 28605', 
-        mapUrl: 'https://goo.gl/maps/RCgrKRUZYs12',
-        date: 'December 17 - 18',
-        time: '',
-        notes: ''
-    }];
+//    { 
+//        name: 'Race at Appalachian Mtn', 
+//        location: 'Appalachian Ski Mtn', 
+//        address: '940 Ski Mountain Rd, Blowing Rock, NC 28605', 
+//        mapUrl: 'https://goo.gl/maps/RCgrKRUZYs12',
+//        date: 'December 17 - 18',
+//        time: '',
+//        notes: ''
+//    }
+    ];
     
     $scope.slideInterval = 5000;
 	$scope.welcomeSlides = [ 

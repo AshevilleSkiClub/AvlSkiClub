@@ -19,9 +19,7 @@ angular.module('asc.news', ['ngRoute'])
     ];
     
     $scope.cscNewsletters = [
-        { name: 'October 2017', src: 'newsletters/2017/CSC_Oct_2017_President_Update.pdf' },
-        { name: 'August 2017', src: 'newsletters/2017/CSC_Aug_2017_President_Update.pdf' },
-        { name: 'CSC 2017 Fall Conference Forms', src: 'newsletters/2017/CSC_2017_Fall_Conference.pdf' }
+        { name: 'January 2018', src: 'newsletters/2018/CSC_Jan_2018_President_Update.pdf' }
     ];
     
     $scope.nscNewsletters = [
